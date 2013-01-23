@@ -1,6 +1,6 @@
 h1. Colors
 
-A neat proof-of-concept UW Digital Collections facet-by-color script.  
+A neat facet-by-color script (proof-of-concept).  
 
 * Uses "Miro":https://github.com/jonbuda/miro to pull the dominant colors from an image.
 * Uses "Euclidian distance":http://en.wikipedia.org/wiki/Euclidean_distance to map dominant colors into pre-defined facet color bins
