@@ -3,7 +3,7 @@
 # @TODO
 # 1) Extract color conversion
 # 2) Solr connection doesn't belong here
-# 3) Miro options should be configurable
+# 3) Imagemagick path should be configurable
 # 4) Key colors should be configurable
 # 5) All metadata should be isolated
 
@@ -11,12 +11,12 @@
 require 'rubygems'
 require 'mechanize'   # Crawl UW Digital Collection for data, images
 require 'chunky_png'  # Pure Ruby image manipulation
-require 'miro'        # Detect dominant image colors 
 require 'ai4r'        # Kmeans
 require 'rsolr'       # Solr
 require 'fileutils'   # Save files
 require 'awesome_print'
 require 'active_support/core_ext/string'
+require 'cocaine'
 
 module ChunkyPNG::Canvas::Operations
   def crop_square_at_center_point(x,y,size)
@@ -31,11 +31,6 @@ end
 def center_point(image)
   [image.dimension.width/2, image.dimension.height/2]
 end
-
-# Miro options
-Miro.options[:image_magick_path] = '/usr/local/bin/convert'
-Miro.options[:resolution] = '100x100'
-Miro.options[:color_count] = 1000
 
 # Configure for Solr
 # - Using the default apache-solr-4.0.0/example/solr/collection1/conf/ schema.xml solrconfig.xml
@@ -197,11 +192,10 @@ def save_details(identifier)
   }
 
   # Save thumb image color data
-  # Miro + ImageMagick
   # Using thumbnails is critical to reducing "noise" within the colors
 
   # Miro inspired conversion jpg to png
-  Cocaine::CommandLine.new(Miro.options[:image_magick_path], "':in[0]' :out").
+  Cocaine::CommandLine.new('/usr/local/bin/convert', "':in[0]' :out").
     run(
       :in => File.expand_path("#{identifier}_thumb.jpg"),
       :out => File.expand_path("#{identifier}_thumb.png")
@@ -211,18 +205,15 @@ def save_details(identifier)
   begin
     img = ChunkyPNG::Image.from_file("#{identifier}_thumb.png")
     point_of_interest = center_point(img)
-    img.crop_square_at_center_point(point_of_interest[0], point_of_interest[1], 90).save("#{identifier}_cropped.png")
+    @image = img.crop_square_at_center_point(point_of_interest[0], point_of_interest[1], 90).save("#{identifier}_cropped.png")
   rescue
     return nil
   end
 
   # Detect dominant colors
-  # - Returns sorted array of pixel RGB colors, converted to LAB
-  # - Miro returns a downsampled, quantized image
-  # - @TODO: look to fetch colors from ChunkyPNG directly
-  colors = Miro::DominantColors.new("#{identifier}_cropped.png")
-  colors_lab = colors.to_rgb.collect{|r,g,b| rgb_to_lab(r,g,b)}
-  puts colors_lab.size
+  # - Fetches colors from ChunkyPNG directly
+  colors = ChunkyPNG::Image.from_file(File.expand_path(@image.path)).pixels.collect {|c| ChunkyPNG::Color.to_truecolor_bytes c }
+  colors_lab = colors.collect{|r,g,b| rgb_to_lab(r,g,b)}
   
   # Kmeans cluster
   data = Ai4r::Data::DataSet.new(:data_items => colors_lab)
@@ -237,10 +228,10 @@ def save_details(identifier)
   # - Array of Colors Facet values (ex. ["Cayenne", "Asparagus", etc.])
   # - Color Percentage values (ex. "Cayenne" => 68.123)
   metadata["colors_ss"] = Array.new
-  color_percentages = colors.by_percentage
+  #color_percentages = colors.by_percentage
   img_key_colors.each_with_index do |color, i|
     metadata['colors_ss'] << color unless metadata['colors_ss'].include?(color)
-    metadata["#{color}_f"] = color_percentages[i] * 100
+    #metadata["#{color}_f"] = color_percentages[i] * 100
   end
   
   # Delete derivatives
