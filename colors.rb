@@ -218,6 +218,8 @@ def save_details(identifier)
 
   # Detect dominant colors
   # - Returns sorted array of pixel RGB colors, converted to LAB
+  # - Miro returns a downsampled, quantized image
+  # - @TODO: look to fetch colors from ChunkyPNG directly
   colors = Miro::DominantColors.new("#{identifier}_cropped.png")
   colors_lab = colors.to_rgb.collect{|r,g,b| rgb_to_lab(r,g,b)}
   puts colors_lab.size
@@ -225,7 +227,7 @@ def save_details(identifier)
   # Kmeans cluster
   data = Ai4r::Data::DataSet.new(:data_items => colors_lab)
   kmeans = Ai4r::Clusterers::KMeans.new
-  result = kmeans.build(data, 10)
+  result = kmeans.build(data, 4)
 
   # Map each color cluster to img_key_colors
   img_key_colors = result.centroids.collect{|color| key_colors[key_colors.keys.sort_by {|c| dist(color, c) }.first]}
