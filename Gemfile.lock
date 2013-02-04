@@ -1,0 +1,42 @@
+PATH
+  remote: .
+  specs:
+    kolors (0.0.1)
+      ai4r
+      cocaine
+      oily_png
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (3.2.11)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    ai4r (1.12)
+    chunky_png (1.2.7)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.1)
+      climate_control (>= 0.0.3, < 1.0)
+    diff-lcs (1.1.3)
+    i18n (0.6.1)
+    multi_json (1.5.0)
+    oily_png (1.0.3)
+      chunky_png (~> 1.2.1)
+    rake (10.0.3)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.2)
+    rspec-expectations (2.12.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kolors!
+  rake
+  rspec
