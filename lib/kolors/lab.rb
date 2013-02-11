@@ -23,20 +23,20 @@ module Kolors
       var_X = a / 500 + var_Y
       var_Z = var_Y - b / 200
 
-      if ( var_Y^3 > 0.008856 ) 
-        var_Y = var_Y^3
+      if ( var_Y**3 > 0.008856 ) 
+        var_Y = var_Y**3
       else                      
         var_Y = ( var_Y - 16 / 116 ) / 7.787
       end
   
-      if ( var_X^3 > 0.008856 ) 
-        var_X = var_X^3
+      if ( var_X**3 > 0.008856 ) 
+        var_X = var_X**3
       else                      
         var_X = ( var_X - 16 / 116 ) / 7.787
       end
   
-      if ( var_Z^3 > 0.008856 ) 
-        var_Z = var_Z^3
+      if ( var_Z**3 > 0.008856 ) 
+        var_Z = var_Z**3
       else
         var_Z = ( var_Z - 16 / 116 ) / 7.787
       end
@@ -58,19 +58,19 @@ module Kolors
       var_B = var_X *  0.0557 + var_Y * -0.2040 + var_Z *  1.0570
 
       if ( var_R > 0.0031308 ) 
-        var_R = 1.055 * ( var_R ^ ( 1 / 2.4 ) ) - 0.055
+        var_R = 1.055 * ( var_R ** ( 1 / 2.4 ) ) - 0.055
       else
         var_R = 12.92 * var_R
       end
   
       if ( var_G > 0.0031308 ) 
-        var_G = 1.055 * ( var_G ^ ( 1 / 2.4 ) ) - 0.055
+        var_G = 1.055 * ( var_G ** ( 1 / 2.4 ) ) - 0.055
       else
         var_G = 12.92 * var_G
       end
   
       if ( var_B > 0.0031308 ) 
-        var_B = 1.055 * ( var_B ^ ( 1 / 2.4 ) ) - 0.055
+        var_B = 1.055 * ( var_B ** ( 1 / 2.4 ) ) - 0.055
       else
         var_B = 12.92 * var_B
       end
