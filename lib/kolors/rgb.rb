@@ -60,9 +60,9 @@ module Kolors
 
     # EasyRGB - XYZ to CIELAB
     def xyz_to_lab(x,y,z)
-      var_X = x / 95.047            #ref_X =  95.047   Observer= 2°, Illuminant= D65
-      var_Y = y / 100.000           #ref_Y = 100.000
-      var_Z = z / 108.883           #ref_Z = 108.883
+      var_X = x / 95.047            # ref_X =  95.047   Observer= 2°, Illuminant= D65
+      var_Y = y / 100.000           # ref_Y = 100.000
+      var_Z = z / 108.883           # ref_Z = 108.883
 
       if ( var_X > 0.008856 ) 
         var_X = var_X ** ( 1.0/3.0 )

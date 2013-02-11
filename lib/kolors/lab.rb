@@ -41,9 +41,9 @@ module Kolors
         var_Z = ( var_Z - 16 / 116 ) / 7.787
       end
 
-      x = ref_X * var_X     # ref_X =  95.047     Observer= 2°, Illuminant= D65
-      y = ref_Y * var_Y     # ref_Y = 100.000
-      z = ref_Z * var_Z     # ref_Z = 108.883
+      x = 95.047 * var_X      # ref_X =  95.047     Observer= 2°, Illuminant= D65
+      y = 100.000 * var_Y     # ref_Y = 100.000
+      z = 108.883 * var_Z     # ref_Z = 108.883
   
       return [x,y,z]
     end
