@@ -14,6 +14,10 @@ module Kolors
       percentize(group_hashes_sum_values(facets))
     end
     
+    def to_rgb
+      kmeans_result.centroids
+    end  
+    
     def to_lab
       kmeans_result.centroids.collect{|r,g,b| Kolors::Rgb.new(r,g,b).to_lab}
     end

@@ -88,11 +88,5 @@ module Kolors
 
       return [l.round(3),a.round(3),b.round(3)]
     end
-
-    # EasyRGB - RGB to LAB
-    def rgb_to_lab(r,g,b)
-      x,y,z = rgb_to_xyz(r,g,b)
-      l,a,b = xyz_to_lab(x,y,z)
-    end
   end
 end

@@ -6,6 +6,7 @@ require 'open-uri'
 require "tempfile"
 
 require 'kolors/rgb'
+require 'kolors/lab'
 require 'kolors/dominant_colors'
 
 # Define a list of key LAB colors
