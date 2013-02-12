@@ -33,7 +33,7 @@ module Kolors
     private
     
     def percentize(hash)
-      hash.collect{|color, count| {color => ((count.to_f / @colors.size.to_f)*100)}}
+      hash.collect{|color, count| {color => ((count.to_f / @colors.size.to_f)*100)}}.sort!{|a,b| b[b.keys.first] <=> a[a.keys.first] }
     end
     
     def group_hashes_sum_values(array)
