@@ -20,20 +20,30 @@ require 'kolors'
 # Use path to a local image or URL for remote image
 kolors = Kolors::DominantColors.new('../colors/images/QFZMF57HPHVGJ8Z_thumb.png')
 
-# Return the dominant colors in LAB
+# Two methods for color retrieval
+# 1) KMeans-based clustered color analysis
+# 2) Non-clustered, color pixel count percentages (more colors here)
+
+# KMeans - Return the dominant colors in LAB
 kolors.to_lab
  => [[52.406, -18.186, 27.618], [88.523, -10.393, 16.203], [64.944, -16.181, 24.419], [28.486, -16.665, 22.73]]
 
-# Return the mapped color bins and color percentage for facet-by-color
+# KMeans - Return the mapped color bins and color percentage for facet-by-color
 kolors.to_facets
  => [{"Moss"=>50.05952380952381}, {"Mercury"=>9.880952380952381}, {"Aluminum"=>19.186507936507937}, {"Iron"=>20.873015873015873}]
+ 
+kolors.to_lab # LAB values
+kolors.to_rgb # RGB values
+ 
+# Non-clustered - Color pixel count percentages
+kolors.color_bins_result
+ => [{"Moss"=>31.785714285714285}, {"Asparagus"=>22.658730158730158}, {"Aluminum"=>7.420634920634921}, {"Tungsten"=>5.396825396825397}, {"Magnesium"=>4.821428571428572}, {"Iron"=>4.424603174603175}, {"Steel"=>4.067460317460317}, {"Silver"=>3.8293650793650795}, {"Tin"=>3.7896825396825395}, {"Mercury"=>3.6904761904761907}, {"Nickel"=>3.5515873015873014}, {"Lead"=>2.380952380952381}, {"Snow"=>2.0634920634920633}, {"Licorice"=>0.11904761904761905}]
+ 
 ```
 
 ## TODOS
 
-1. LAB to RGB conversion
-2. Simplify configuration of "color bins" for facet-by-color mapping
-3. Tests
+1. Simplify configuration of "color bins" for facet-by-color mapping
 
 ## Thanks
 
