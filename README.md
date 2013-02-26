@@ -1,4 +1,5 @@
 # Kolors
+[![Code Climate](https://codeclimate.com/github/ewlarson/kolors.png)](https://codeclimate.com/github/ewlarson/kolors)
 
 Uses KMeans clustering and the L*A*B* colorspace to extract "approximate human vision" dominant colors from an image.  Optionally, map those dominant colors into preferred "color bins" for a search index facet-by-color solution.
 
