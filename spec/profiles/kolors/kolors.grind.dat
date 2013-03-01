@@ -1,0 +1,4694 @@
+events: process_time
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#sort!
+0 10
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#keys
+calls=6 36
+36 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=6 36
+36 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#<=>
+calls=3 36
+36 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#to_f
+0 4
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#percentize
+35 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#collect
+calls=1 36
+36 21
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#sort!
+calls=1 36
+36 17
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#group_hashes_sum_values
+39 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#inject
+calls=1 40
+40 22
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Float#eql?
+0 5
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#eql?
+0 11
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#eql?
+calls=12 12
+12 5
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Float#<=>
+0 398
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Range#each
+0 838
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#**
+calls=576 24
+24 252
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#map
+0 228
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Range#each
+calls=192 24
+24 1090
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors.rb
+fn=Object#dist
+23 465
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#map
+calls=192 24
+24 1318
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#inject
+calls=192 24
+24 819
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#**
+calls=192 24
+24 122
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#keys
+0 20
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Float#hash
+0 483
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#hash
+0 769
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#hash
+calls=1152 15
+15 478
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#hash
+calls=12 12
+12 5
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors.rb
+fn=Object#key_colors
+13 372
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#hash
+calls=384 15
+15 1237
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerator#each
+0 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#each_with_index
+calls=1 11
+11 5421
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#collect
+0 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerator#each
+calls=1 11
+11 5426
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#each
+calls=1 36
+36 19
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#each_with_index
+0 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 11
+11 5419
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Float#round
+0 20
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+fn=Kolors::Rgb#xyz_standardize
+52 40
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#**
+calls=12 54
+54 14
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+fn=Kolors::Rgb#xyz_to_lab
+61 51
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+cfn=Kolors::Rgb#xyz_standardize
+calls=12 68
+68 55
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#round
+calls=12 74
+74 20
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Float#*
+0 12
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Float#**
+0 414
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+fn=Kolors::Rgb#rgb_standardize
+21 62
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#**
+calls=10 23
+23 26
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#*
+calls=12 27
+27 10
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+fn=Kolors::Rgb#rgb_to_xyz
+31 52
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+cfn=Kolors::Rgb#rgb_standardize
+calls=12 42
+42 97
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+fn=Kolors::Rgb#to_lab
+14 16
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+cfn=Kolors::Rgb#rgb_to_xyz
+calls=4 15
+15 149
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+cfn=Kolors::Rgb#xyz_to_lab
+calls=4 16
+16 125
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+fn=Kolors::Rgb#initialize
+6 13
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Module::ObjectSpace>#undefine_finalizer
+0 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::File>#unlink
+0 24
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+fn=Tempfile#unlink
+229 13
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+cfn=<Class::Delegator>#const_missing
+calls=1 232
+232 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#unlink
+calls=1 232
+232 24
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=2 239
+239 3
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+fn=Tempfile#_close
+164 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#close
+calls=1 166
+166 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=1 169
+169 3
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+fn=Tempfile#close!
+190 9
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=Tempfile#_close
+calls=1 191
+191 19
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=Tempfile#unlink
+calls=1 192
+192 53
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+cfn=<Class::Delegator>#const_missing
+calls=1 193
+193 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Module::ObjectSpace>#undefine_finalizer
+calls=1 193
+193 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+fn=Tempfile#close
+180 5
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=Tempfile#close!
+calls=1 182
+182 91
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#cleanup_temporary_files!
+113 11
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#remote_source_image?
+calls=1 114
+114 9
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=Tempfile#close
+calls=1 115
+115 97
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Float#/
+0 9
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#get_index
+184 18
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#is_a?
+calls=12 185
+185 6
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/statistics.rb
+fn=<Module::Ai4r::Data::Statistics>#mean
+20 48
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#get_index
+calls=12 21
+21 23
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=12 23
+23 28344
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#/
+calls=12 24
+24 9
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Integer#times
+0 44
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=12 215
+215 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#is_a?
+calls=12 215
+215 8
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/statistics.rb
+cfn=<Module::Ai4r::Data::Statistics>#mean
+calls=12 217
+217 28425
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=12 217
+217 11
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#get_mean_or_mode
+212 13
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#num_attributes
+calls=4 214
+214 10
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Integer#times
+calls=4 214
+214 28494
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+fn=Ai4r::Clusterers::KMeans#recompute_centroids
+118 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Proc#call
+calls=1 121
+121 28529
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#num_attributes
+176 11519
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=7196 177
+177 2541
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=4 177
+177 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#<<
+196 19936
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=7200 197
+197 2732
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#is_a?
+calls=7200 197
+197 2786
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#set_data_items
+calls=4 200
+200 31
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#num_attributes
+calls=7196 201
+201 14052
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/clusterer.rb
+fn=Ai4r::Clusterers::Clusterer#get_min_index
+46 15896
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=7200 47
+47 2588
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each_index
+calls=7200 49
+49 27702
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Float#+
+0 40629
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/clusterer.rb
+fn=Ai4r::Clusterers::Clusterer#euclidean_distance
+36 44069
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each_index
+calls=28800 38
+38 325655
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+fn=Ai4r::Clusterers::KMeans#distance
+81 36784
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/clusterer.rb
+cfn=Ai4r::Clusterers::Clusterer#euclidean_distance
+calls=28800 83
+83 369724
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+fn=Ai4r::Clusterers::KMeans#eval
+68 9317
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#collect
+calls=7200 69
+69 431928
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/clusterer.rb
+cfn=Ai4r::Clusterers::Clusterer#get_min_index
+calls=7200 69
+69 46186
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#check_data_labels
+244 4
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#set_data_labels
+97 9
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#check_data_labels
+calls=4 98
+98 4
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#initialize
+0 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=4 111
+111 27
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+fn=Ai4r::Clusterers::KMeans#calculate_membership_clusters
+109 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 110
+110 37
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 113
+113 535223
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+fn=Ai4r::Clusterers::KMeans#stop_criteria_met
+104 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#==
+calls=1 106
+106 50
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#==
+0 23
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#==
+calls=7 96
+96 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#==
+calls=4 105
+105 40
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#==
+calls=12 105
+105 25
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#==
+0 36
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#rand
+0 11
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=7 93
+93 3
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+fn=Ai4r::Clusterers::KMeans#calc_initial_centroids
+88 27
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#rand
+calls=7 93
+93 14
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#include?
+calls=14 96
+96 40
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+fn=Ai4r::Clusterers::KMeans#build
+52 12
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+cfn=Ai4r::Clusterers::KMeans#calc_initial_centroids
+calls=1 57
+57 81
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+cfn=Ai4r::Clusterers::KMeans#stop_criteria_met
+calls=2 58
+58 57
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+cfn=Ai4r::Clusterers::KMeans#calculate_membership_clusters
+calls=1 59
+59 535265
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+cfn=Ai4r::Clusterers::KMeans#recompute_centroids
+calls=1 60
+60 28536
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#lambda
+0 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+fn=Ai4r::Clusterers::KMeans#initialize
+39 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#lambda
+calls=1 43
+43 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#[]
+0 3
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#default_data_labels
+255 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]
+calls=1 257
+257 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each_index
+calls=1 257
+257 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=1 260
+260 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#each_index
+0 266518
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#to_s
+calls=2 258
+258 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=2 258
+258 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#is_a?
+calls=172800 39
+39 57954
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#+
+calls=86400 40
+40 31695
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#is_a?
+0 60756
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#check_data_items
+227 22
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=2 233
+233 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 228
+228 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each_index
+calls=1 234
+234 2800
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=8 233
+233 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#is_a?
+calls=4 228
+228 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each_index
+calls=4 234
+234 4
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#set_data_items
+132 16
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#check_data_items
+calls=1 133
+133 2813
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#default_data_labels
+calls=1 134
+134 19
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#check_data_items
+calls=4 133
+133 21
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+fn=Ai4r::Data::DataSet#initialize
+34 18
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#set_data_items
+calls=1 38
+38 2838
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#set_data_labels
+calls=4 37
+37 13
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=OilyPNG::Color#b
+0 2534
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=OilyPNG::Color#g
+0 2618
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=OilyPNG::Color#r
+0 2583
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/color.rb
+fn=ChunkyPNG::Color#to_truecolor_bytes
+472 11668
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=OilyPNG::Color#r
+calls=7200 473
+473 2583
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=OilyPNG::Color#g
+calls=7200 473
+473 2618
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=OilyPNG::Color#b
+calls=7200 473
+473 2534
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#collect
+0 30647
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/color.rb
+cfn=ChunkyPNG::Color#to_truecolor_bytes
+calls=7200 93
+93 19404
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+cfn=Ai4r::Clusterers::KMeans#distance
+calls=28800 70
+70 406508
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#get_mean_or_mode
+calls=4 44
+44 28517
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=4 22
+22 24
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+cfn=Kolors::Rgb#to_lab
+calls=4 22
+22 290
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+fn=ChunkyPNG::Datastream#metadata
+137 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#select
+calls=1 139
+139 23
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas.rb
+fn=ChunkyPNG::Canvas#initialize
+79 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#kind_of?
+calls=1 83
+83 1
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/image.rb
+fn=ChunkyPNG::Image#initialize
+22 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas.rb
+cfn=ChunkyPNG::Canvas#initialize
+calls=1 23
+23 8
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#kind_of?
+0 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=OilyPNG::PNGDecoding#decode_png_image_pass
+0 252
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#kind_of?
+calls=1 124
+124 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 124
+124 15
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas/png_decoding.rb
+fn=ChunkyPNG::Canvas::PNGDecoding#decode_png_without_interlacing
+123 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=OilyPNG::PNGDecoding#decode_png_image_pass
+calls=1 124
+124 268
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/palette.rb
+fn=ChunkyPNG::Palette#can_decode?
+113 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=1 114
+114 1
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas/png_decoding.rb
+fn=ChunkyPNG::Canvas::PNGDecoding#decode_png_pixelstream
+100 11
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/palette.rb
+cfn=ChunkyPNG::Palette#can_decode?
+calls=1 101
+101 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#===
+calls=1 103
+103 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas/png_decoding.rb
+cfn=ChunkyPNG::Canvas::PNGDecoding#decode_png_without_interlacing
+calls=1 104
+104 270
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::Zlib::Inflate>#inflate
+0 50
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=<Class::ChunkyPNG::Chunk::ImageData>#combine_chunks
+229 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=1 230
+230 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#join
+calls=1 230
+230 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::Zlib::Inflate>#inflate
+calls=1 230
+230 50
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+fn=ChunkyPNG::Datastream#imagedata
+147 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Class::ChunkyPNG::Chunk::ImageData>#combine_chunks
+calls=1 148
+148 60
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#[]=
+0 5
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+fn=Set#add
+238 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#[]=
+calls=5 239
+239 3
+
+fl=/home/marsalis/kolors/(eval)
+fn=SortedSet#add
+17 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to?
+calls=5 18
+18 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+cfn=Set#add
+calls=5 20
+20 12
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#each_entry
+0 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 87
+87 35
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+fn=Set#do_with_enum
+85 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 86
+86 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#each_entry
+calls=1 87
+87 36
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#instance_of?
+0 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+fn=Set#merge
+316 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=1 317
+317 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#instance_of?
+calls=1 317
+317 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+cfn=Set#do_with_enum
+calls=1 320
+320 42
+
+fl=/home/marsalis/kolors/(eval)
+fn=SortedSet#merge
+46 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+cfn=Set#merge
+calls=1 48
+48 51
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#initialize
+0 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+fn=Set#initialize
+73 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 74
+74 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=1 76
+76 1
+cfl=/home/marsalis/kolors/(eval)
+cfn=SortedSet#merge
+calls=1 81
+81 54
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Module#method_removed
+0 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Module#remove_method
+0 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#method_removed
+calls=1 619
+619 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Module#method_added
+0 9
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Module#module_eval
+0 231
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#method_added
+calls=1 537
+537 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#method_added
+calls=11 57
+57 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#remove_method
+calls=1 619
+619 4
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+fn=<Class::SortedSet>#setup
+532 19
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#module_eval
+calls=1 535
+535 21
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb
+cfn=Kernel#require
+calls=1 540
+540 10318
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+fn=SortedSet#initialize
+626 18
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+cfn=<Class::SortedSet>#setup
+calls=1 627
+627 10358
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+cfn=ChunkyPNG::Datastream#imagedata
+calls=1 88
+88 66
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas/png_decoding.rb
+cfn=ChunkyPNG::Canvas::PNGDecoding#decode_png_pixelstream
+calls=1 88
+88 287
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+cfn=Set#initialize
+calls=1 4
+4 66
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/palette.rb
+fn=ChunkyPNG::Palette#initialize
+22 12
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+cfn=SortedSet#initialize
+calls=1 23
+23 10730
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+cfn=ChunkyPNG::Datastream#metadata
+calls=1 75
+75 26
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/set.rb
+cfn=SortedSet#initialize
+calls=1 23
+23 70
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#<<
+0 22
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/color.rb
+fn=ChunkyPNG::Color#rgba
+92 54
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<<
+calls=15 93
+93 22
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#|
+calls=15 93
+93 21
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#fetch
+0 14
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#each_slice
+0 12
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 50
+50 181
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/palette.rb
+fn=<Class::ChunkyPNG::Palette>#from_chunks
+36 117
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=1 37
+37 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#unpack
+calls=1 42
+42 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#each_slice
+calls=1 50
+50 193
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 56
+56 10775
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#collect
+calls=1 56
+56 24608
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#===
+0 5
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas/png_decoding.rb
+fn=ChunkyPNG::Canvas::PNGDecoding#from_datastream
+68 47
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#===
+calls=1 79
+79 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/palette.rb
+cfn=<Class::ChunkyPNG::Palette>#from_chunks
+calls=1 81
+81 35707
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=2 100
+100 2858
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors.rb
+cfn=<Module::Kolors>#options
+calls=1 101
+101 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+cfn=Ai4r::Clusterers::KMeans#build
+calls=1 101
+101 563951
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/image.rb
+fn=<Class::ChunkyPNG::Image>#from_datastream
+73 16
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas/png_decoding.rb
+cfn=ChunkyPNG::Canvas::PNGDecoding#from_datastream
+calls=1 74
+74 602570
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#cleanup_temporary_files!
+calls=1 46
+46 117
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=ChunkyPNG::Chunk::End#initialize
+151 7
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Base#initialize
+calls=1 152
+152 14
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=<Class::ChunkyPNG::Chunk::End>#read
+160 11
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#bytesize
+calls=1 161
+161 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 162
+162 27
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=ChunkyPNG::Chunk::Text#initialize
+252 19
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Base#initialize
+calls=2 253
+253 20
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=<Class::ChunkyPNG::Chunk::Text>#read
+257 25
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#unpack
+calls=2 258
+258 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=2 259
+259 56
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#bytesize
+0 6
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=<Class::ChunkyPNG::Chunk::ImageData>#read
+224 15
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#bytesize
+calls=1 225
+225 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Class::ChunkyPNG::Chunk::Generic>#read
+calls=1 226
+226 74
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=ChunkyPNG::Chunk::Generic#initialize
+92 70
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Base#initialize
+calls=8 93
+93 161
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Base#initialize
+calls=1 93
+93 19
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=<Class::ChunkyPNG::Chunk::Generic>#read
+100 44
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=8 101
+101 248
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 101
+101 68
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=ChunkyPNG::Chunk::Base#initialize
+59 242
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#each
+calls=1 61
+61 191
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#each
+calls=8 61
+61 113
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#each
+calls=1 61
+61 10
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#each
+calls=2 61
+61 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#each
+calls=1 61
+61 7
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=ChunkyPNG::Chunk::Header#initialize
+119 26
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Base#initialize
+calls=1 120
+120 355
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=<Class::ChunkyPNG::Chunk::Header>#read
+133 79
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#unpack
+calls=1 134
+134 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 135
+135 390
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#fetch
+0 38
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Module::Zlib>#crc32
+0 81
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=<Module::ChunkyPNG::Chunk>#verify_crc!
+37 143
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Module::Zlib>#crc32
+calls=26 38
+38 81
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#first
+0 5169
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#unpack
+0 119
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+fn=<Module::ChunkyPNG::Chunk>#read
+20 365
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#read
+calls=39 24
+24 167
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#unpack
+calls=26 24
+24 95
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=13 24
+24 21
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Module::ChunkyPNG::Chunk>#verify_crc!
+calls=13 26
+26 224
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#fetch
+calls=13 28
+28 38
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Class::ChunkyPNG::Chunk::Header>#read
+calls=1 28
+28 475
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Class::ChunkyPNG::Chunk::Generic>#read
+calls=8 28
+28 287
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Class::ChunkyPNG::Chunk::ImageData>#read
+calls=1 28
+28 93
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Class::ChunkyPNG::Chunk::Text>#read
+calls=2 28
+28 88
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Class::ChunkyPNG::Chunk::End>#read
+calls=1 28
+28 40
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=IO#eof?
+0 55
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+fn=ChunkyPNG::Datastream#initialize
+41 24
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+fn=<Class::ChunkyPNG::Datastream>#verify_signature!
+99 33
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#read
+calls=1 100
+100 20
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+fn=<Class::ChunkyPNG::Datastream>#from_io
+73 229
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+cfn=<Class::ChunkyPNG::Datastream>#verify_signature!
+calls=1 74
+74 53
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 76
+76 41
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#eof?
+calls=14 84
+84 55
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=<Module::ChunkyPNG::Chunk>#read
+calls=13 78
+78 1894
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=57 79
+79 91
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+fn=<Class::ChunkyPNG::Datastream>#from_file
+64 89
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::IO>#open
+calls=1 66
+66 2460
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas/png_decoding.rb
+fn=ChunkyPNG::Canvas::PNGDecoding#from_file
+52 37
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+cfn=<Class::ChunkyPNG::Datastream>#from_file
+calls=1 53
+53 2549
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/image.rb
+cfn=<Class::ChunkyPNG::Image>#from_datastream
+calls=1 53
+53 602703
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#collect_pixels
+92 45
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=Tempfile#path
+calls=1 93
+93 12
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#expand_path
+calls=1 93
+93 45
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/canvas/png_decoding.rb
+cfn=ChunkyPNG::Canvas::PNGDecoding#from_file
+calls=1 93
+93 605289
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#collect
+calls=1 93
+93 330
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#detect_dominant_colors
+96 46
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#collect_pixels
+calls=1 99
+99 605721
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#each_with_index
+calls=1 99
+99 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#collect
+calls=1 99
+99 5430
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#group_hashes_sum_values
+calls=1 14
+14 24
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#percentize
+calls=1 14
+14 41
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#include?
+0 38
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#==
+calls=21 94
+94 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#==
+calls=10 96
+96 15
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Process::Status#exitstatus
+0 41
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Module::Process>#waitpid
+0 94
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line/runners/process_runner.rb
+fn=Cocaine::CommandLine::ProcessRunner#waitpid
+23 53
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Module::Process>#waitpid
+calls=1 24
+24 94
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=IO#read
+0 248
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=IO#close
+0 37
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Object::Object>#to_hash
+0 101
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Module::Process>#spawn
+0 368
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Object::Object>#to_hash
+calls=1 20
+20 101
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line/runners/process_runner.rb
+fn=Cocaine::CommandLine::ProcessRunner#spawn
+19 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Module::Process>#spawn
+calls=1 20
+20 469
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=IO#initialize
+0 5
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::IO>#pipe
+0 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#initialize
+calls=2 9
+9 5
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line/runners/process_runner.rb
+fn=Cocaine::CommandLine::ProcessRunner#call
+8 26
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::IO>#pipe
+calls=1 9
+9 12
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line/runners/process_runner.rb
+cfn=Cocaine::CommandLine::ProcessRunner#spawn
+calls=1 10
+10 476
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#close
+calls=1 11
+11 16
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#read
+calls=1 12
+12 62
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line/runners/process_runner.rb
+cfn=Cocaine::CommandLine::ProcessRunner#waitpid
+calls=1 13
+13 147
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#merge
+0 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=1 125
+125 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=3 40
+40 8
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=<Class::Cocaine::CommandLine>#environment
+27 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#environment
+124 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=1 125
+125 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=<Class::Cocaine::CommandLine>#environment
+calls=1 125
+125 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#merge
+calls=1 125
+125 7
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#execute
+120 5
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#environment
+calls=1 121
+121 12
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line/runners/process_runner.rb
+cfn=Cocaine::CommandLine::ProcessRunner#call
+calls=1 121
+121 738
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#log
+114 1
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#colored
+106 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#split
+0 7
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#!~
+0 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#=~
+calls=3 101
+101 8
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#unix?
+100 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#!~
+calls=3 101
+101 11
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#shell_quote
+134 14
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=3 135
+135 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#unix?
+calls=3 136
+136 18
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#split
+calls=3 140
+140 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=3 140
+140 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#join
+calls=3 140
+140 13
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#gsub
+0 32
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#shell_quote
+calls=3 130
+130 60
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Symbol#to_s
+0 117
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#each
+0 252
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Symbol#to_s
+calls=3 130
+130 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#gsub
+calls=3 130
+130 92
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Symbol#to_s
+calls=7 61
+61 90
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Symbol#to_s
+calls=8 61
+61 22
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Symbol#to_s
+calls=1 61
+61 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#to_f
+calls=8 36
+36 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#*
+calls=4 36
+36 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#inject
+0 239
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#each
+calls=1 129
+129 122
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=192 24
+24 584
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 40
+40 20
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#interpolate
+128 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#inject
+calls=1 129
+129 124
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#command
+67 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#interpolate
+calls=1 70
+70 127
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#join
+calls=1 72
+72 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#strip
+calls=1 72
+72 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#run
+75 48
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#command
+calls=1 78
+78 136
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#colored
+calls=1 79
+79 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#log
+calls=1 79
+79 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#execute
+calls=1 80
+80 756
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Process::Status#exitstatus
+calls=3 89
+89 41
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#include?
+calls=1 89
+89 21
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+fn=Tempfile#path
+246 13
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=File#path
+0 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=BasicObject#initialize
+0 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#respond_to?
+0 14
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=7 140
+140 3
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#raise
+0 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 113
+113 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 113
+113 26
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 113
+113 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 113
+113 24
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=<Class::Gem::Specification>#find_inactive_by_path
+847 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find
+calls=1 848
+848 774
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find
+calls=1 848
+848 934
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+fn=<Module::Gem>#try_activate
+168 9
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#find_inactive_by_path
+calls=1 175
+175 776
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#find_inactive_by_path
+calls=1 175
+175 938
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#end_with?
+0 11
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#start_with?
+0 3
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Exception#to_s
+0 4
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Exception#message
+0 10
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#to_s
+calls=2 109
+109 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#to_s
+calls=2 109
+109 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#gem_original_require
+0 295
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 106
+106 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 106
+106 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 106
+106 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 106
+106 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 106
+106 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 106
+106 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Symbol#==
+0 15
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+fn=Gem::Dependency#type
+164 42
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#select
+0 65
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#type
+calls=8 2070
+2070 21
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Symbol#==
+calls=8 2070
+2070 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#type
+calls=8 2070
+2070 21
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Symbol#==
+calls=8 2070
+2070 11
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to?
+calls=9 140
+140 11
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#[]=
+calls=2 140
+140 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=Gem::Specification#dependencies
+1457 15
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=Gem::Specification#runtime_dependencies
+2069 17
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#dependencies
+calls=2 2070
+2070 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#select
+calls=2 2070
+2070 45
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#dependencies
+calls=2 2070
+2070 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#select
+calls=2 2070
+2070 66
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=Gem::Specification#traverse
+2296 26
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#runtime_dependencies
+calls=2 2298
+2298 51
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 2298
+2298 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#runtime_dependencies
+calls=2 2298
+2298 91
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 2298
+2298 3
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#reverse_each
+0 4339
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#traverse
+calls=2 872
+872 59
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#traverse
+calls=2 872
+872 114
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=<Class::Gem::Specification>#find_in_unresolved_tree
+867 27
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#unresolved_deps
+calls=1 868
+868 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#values
+calls=1 868
+868 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=1 868
+868 301
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#flatten
+calls=1 868
+868 1073
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=1 868
+868 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#unresolved_deps
+calls=1 868
+868 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#values
+calls=1 868
+868 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=1 868
+868 1129
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#flatten
+calls=1 868
+868 5777
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=1 868
+868 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#module_eval
+calls=2 617
+617 222
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Exception#backtrace
+0 67
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Exception#exception
+0 21
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Exception#initialize
+0 35
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=NameError#initialize
+0 28
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 1879
+1879 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 1879
+1879 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 1879
+1879 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 1879
+1879 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 1879
+1879 4
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=NoMethodError#initialize
+0 32
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NameError#initialize
+calls=1 1879
+1879 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NameError#initialize
+calls=1 1879
+1879 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NameError#initialize
+calls=1 1879
+1879 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NameError#initialize
+calls=1 1879
+1879 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NameError#initialize
+calls=1 1879
+1879 18
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NameError#initialize
+calls=1 1879
+1879 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NameError#initialize
+calls=1 1879
+1879 10
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NameError#initialize
+calls=1 1879
+1879 8
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=BasicObject#method_missing
+0 105
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NoMethodError#initialize
+calls=1 1879
+1879 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NoMethodError#initialize
+calls=1 1879
+1879 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NoMethodError#initialize
+calls=1 1879
+1879 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NoMethodError#initialize
+calls=1 1879
+1879 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NoMethodError#initialize
+calls=1 1879
+1879 28
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 1879
+1879 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 1879
+1879 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NoMethodError#initialize
+calls=1 1879
+1879 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 1879
+1879 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 1879
+1879 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NoMethodError#initialize
+calls=1 1879
+1879 15
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 1879
+1879 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 1879
+1879 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=NoMethodError#initialize
+calls=1 1879
+1879 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#exception
+calls=1 1879
+1879 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#backtrace
+calls=1 1879
+1879 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=Gem::Specification#method_missing
+1874 57
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#method_missing
+calls=1 1879
+1879 16
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 1879
+1879 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#method_missing
+calls=1 1879
+1879 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 860
+860 45
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#method_missing
+calls=1 1879
+1879 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#method_missing
+calls=1 1879
+1879 12
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 1879
+1879 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#method_missing
+calls=1 1879
+1879 11
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#reverse_each
+calls=1 870
+870 66
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#method_missing
+calls=1 1879
+1879 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 1879
+1879 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#method_missing
+calls=1 1879
+1879 66
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 1879
+1879 5
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#method_missing
+calls=1 1879
+1879 51
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 860
+860 178
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#method_missing
+calls=1 1879
+1879 32
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 1879
+1879 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#method_missing
+calls=1 1879
+1879 44
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 1879
+1879 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#method_missing
+calls=1 1879
+1879 52
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#reverse_each
+calls=1 870
+870 4446
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#method_missing
+calls=1 1879
+1879 38
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 1879
+1879 3
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#flatten
+0 36
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#method_missing
+calls=1 858
+858 82
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#find_in_unresolved_tree
+calls=1 75
+75 1384
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 47
+47 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 47
+47 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#method_missing
+calls=1 868
+868 95
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 77
+77 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#gem_original_require
+calls=1 106
+106 135
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=1 106
+106 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#message
+calls=2 109
+109 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#start_with?
+calls=1 109
+109 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#end_with?
+calls=1 109
+109 7
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#try_activate
+calls=1 109
+109 779
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#raise
+calls=1 113
+113 30
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#method_missing
+calls=1 858
+858 329
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#find_in_unresolved_tree
+calls=1 75
+75 7162
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/palette.rb
+cfn=ChunkyPNG::Palette#initialize
+calls=1 628
+628 73
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#method_missing
+calls=1 868
+868 4562
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 77
+77 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#gem_original_require
+calls=1 106
+106 177
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=1 106
+106 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#message
+calls=2 109
+109 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#start_with?
+calls=1 109
+109 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#end_with?
+calls=1 109
+109 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#try_activate
+calls=1 109
+109 944
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#raise
+calls=1 113
+113 30
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#<=>
+0 15
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#<=>
+0 39
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#<=>
+calls=1 264
+264 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=1 264
+264 15
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#<=>
+calls=1 264
+264 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=1 264
+264 15
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#<=>
+calls=1 264
+264 5
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=1 264
+264 56
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#<=>
+calls=1 264
+264 8
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=1 264
+264 53
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=Gem::Specification#sort_obj
+2093 27
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#sort_by
+0 452
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 264
+264 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#<=>
+calls=1 264
+264 22
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 264
+264 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#<=>
+calls=1 264
+264 19
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 264
+264 27
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#<=>
+calls=1 264
+264 81
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 264
+264 17
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#<=>
+calls=1 264
+264 72
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=4 12
+12 2922
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#<=>
+calls=882 12
+12 396
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#nil?
+0 2751
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+fn=<Module::Gem>#platforms
+631 26
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/platform.rb
+fn=<Class::Gem::Platform>#match
+22 29
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#platforms
+calls=2 23
+23 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 23
+23 7
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#platforms
+calls=2 23
+23 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 23
+23 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#platforms
+calls=2 23
+23 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 23
+23 32
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#platforms
+calls=2 23
+23 12
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 23
+23 22
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=Gem::Specification#platform
+1932 17
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#reject!
+0 37
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#platform
+calls=2 260
+260 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/platform.rb
+cfn=<Class::Gem::Platform>#match
+calls=2 260
+260 16
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#platform
+calls=2 260
+260 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/platform.rb
+cfn=<Class::Gem::Platform>#match
+calls=2 260
+260 12
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#platform
+calls=2 260
+260 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/platform.rb
+cfn=<Class::Gem::Platform>#match
+calls=2 260
+260 51
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#platform
+calls=2 260
+260 7
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/platform.rb
+cfn=<Class::Gem::Platform>#match
+calls=2 260
+260 44
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#to_i
+0 18
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#scan
+0 58
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Comparable#<
+0 23
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=2 26
+26 45
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=2 26
+26 36
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=2 26
+26 155
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=2 26
+26 137
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#strip
+0 27
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#=~
+0 81
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#to_s
+0 21
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+fn=<Class::Gem::Version>#correct?
+162 39
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_s
+calls=2 163
+163 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#=~
+calls=2 163
+163 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_s
+calls=2 163
+163 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#=~
+calls=2 163
+163 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_s
+calls=2 163
+163 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#=~
+calls=2 163
+163 39
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_s
+calls=2 163
+163 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#=~
+calls=2 163
+163 22
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+fn=Gem::Version#initialize
+190 64
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=2 192
+192 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=<Class::Gem::Version>#correct?
+calls=2 192
+192 14
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_s
+calls=2 194
+194 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=2 194
+194 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#strip
+calls=2 194
+194 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=2 192
+192 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=<Class::Gem::Version>#correct?
+calls=2 192
+192 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_s
+calls=2 194
+194 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=2 194
+194 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#strip
+calls=2 194
+194 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=2 192
+192 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=<Class::Gem::Version>#correct?
+calls=2 192
+192 64
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_s
+calls=2 194
+194 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=2 194
+194 22
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#strip
+calls=2 194
+194 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=2 192
+192 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=<Class::Gem::Version>#correct?
+calls=2 192
+192 37
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_s
+calls=2 194
+194 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=2 194
+194 20
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#strip
+calls=2 194
+194 11
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#join
+0 77
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#to_s
+calls=2 209
+209 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#to_s
+calls=2 209
+209 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#to_s
+calls=2 209
+209 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#to_s
+calls=2 209
+209 10
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#pop
+0 17
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#initialize_copy
+0 13
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+fn=Gem::Version#bump
+203 120
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=2 204
+204 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=2 204
+204 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 205
+205 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#pop
+calls=2 206
+206 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=2 208
+208 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=2 209
+209 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#join
+calls=2 209
+209 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=2 209
+209 36
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=2 204
+204 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=2 204
+204 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 205
+205 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#pop
+calls=2 206
+206 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=2 208
+208 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=2 209
+209 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#join
+calls=2 209
+209 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=2 209
+209 28
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=2 204
+204 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=2 204
+204 31
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 205
+205 55
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#pop
+calls=2 206
+206 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=2 208
+208 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=2 209
+209 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#join
+calls=2 209
+209 35
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=2 209
+209 140
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=2 204
+204 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=2 204
+204 40
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 205
+205 32
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#pop
+calls=2 206
+206 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=2 208
+208 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=2 209
+209 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#join
+calls=2 209
+209 28
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=2 209
+209 119
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+fn=Gem::Version#prerelease?
+265 62
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+fn=Gem::Version#release
+277 27
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#prerelease?
+calls=2 278
+278 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#prerelease?
+calls=2 278
+278 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#prerelease?
+calls=2 278
+278 35
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#prerelease?
+calls=2 278
+278 16
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#<=>
+0 28
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+fn=Gem::Version#segments
+285 116
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#scan
+calls=2 292
+292 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=2 292
+292 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#scan
+calls=2 292
+292 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=2 292
+292 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#scan
+calls=2 292
+292 28
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=2 292
+292 28
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#scan
+calls=2 292
+292 18
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=2 292
+292 23
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+fn=Gem::Version#<=>
+314 487
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=8 333
+333 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=4 319
+319 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 335
+335 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=8 333
+333 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=4 319
+319 20
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 335
+335 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=4 333
+333 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=2 319
+319 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 335
+335 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=8 333
+333 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=4 319
+319 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 335
+335 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=8 333
+333 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=4 319
+319 15
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 335
+335 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=4 333
+333 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=2 319
+319 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 335
+335 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=8 333
+333 17
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=4 319
+319 18
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 335
+335 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=8 333
+333 13
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=4 319
+319 75
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 335
+335 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=4 333
+333 7
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=2 319
+319 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 335
+335 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=8 333
+333 12
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=4 319
+319 11
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 335
+335 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=8 333
+333 13
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=4 319
+319 59
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 335
+335 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=4 333
+333 7
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#segments
+calls=2 319
+319 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#<=>
+calls=1 335
+335 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Comparable#>=
+0 23
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=2 26
+26 33
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=2 26
+26 28
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=2 26
+26 150
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#<=>
+calls=2 26
+26 104
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Proc#call
+0 64
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Comparable#>=
+calls=2 26
+26 36
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#release
+calls=2 26
+26 9
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#bump
+calls=2 26
+26 79
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Comparable#<
+calls=2 26
+26 47
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Comparable#>=
+calls=2 26
+26 30
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#release
+calls=2 26
+26 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#bump
+calls=2 26
+26 77
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Comparable#<
+calls=2 26
+26 39
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Comparable#>=
+calls=2 26
+26 161
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#release
+calls=2 26
+26 48
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#bump
+calls=2 26
+26 336
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Comparable#<
+calls=2 26
+26 164
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Comparable#>=
+calls=2 26
+26 111
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#release
+calls=2 26
+26 25
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#bump
+calls=2 26
+26 279
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Comparable#<
+calls=2 26
+26 145
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#collect
+calls=1 44
+44 28525
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#all?
+0 22
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 198
+198 184
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 198
+198 162
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 198
+198 765
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 198
+198 597
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/requirement.rb
+fn=Gem::Requirement#satisfied_by?
+194 48
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=2 196
+196 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#all?
+calls=2 198
+198 187
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=2 196
+196 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#all?
+calls=2 198
+198 164
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=2 196
+196 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#all?
+calls=2 198
+198 774
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=2 196
+196 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#all?
+calls=2 198
+198 605
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+fn=Gem::Dependency#requirement
+119 25
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#===
+0 174
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#find_all
+0 20
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#each
+calls=1 253
+253 277
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 860
+860 44
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#each
+calls=1 253
+253 247
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#each
+calls=1 253
+253 1187
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 860
+860 172
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#each
+calls=1 253
+253 920
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+fn=Gem::Dependency#matching_specs
+252 36
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 253
+253 278
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#reject!
+calls=1 259
+259 24
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#sort_by
+calls=1 264
+264 31
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 253
+253 248
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#reject!
+calls=1 259
+259 19
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#sort_by
+calls=1 264
+264 26
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 253
+253 1192
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#reject!
+calls=1 259
+259 70
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#sort_by
+calls=1 264
+264 126
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find_all
+calls=1 253
+253 924
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#reject!
+calls=1 259
+259 64
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#sort_by
+calls=1 264
+264 114
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+fn=Gem::Dependency#to_specs
+276 28
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#matching_specs
+calls=1 277
+277 338
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#matching_specs
+calls=1 277
+277 296
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#matching_specs
+calls=1 277
+277 1405
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#matching_specs
+calls=1 277
+277 1114
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#map
+0 34
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#to_specs
+calls=1 858
+858 340
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_i
+calls=2 291
+291 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#to_specs
+calls=1 868
+868 299
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_i
+calls=2 291
+291 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#to_specs
+calls=1 858
+858 1420
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_i
+calls=2 291
+291 8
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#to_specs
+calls=1 868
+868 1122
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#to_i
+calls=2 291
+291 6
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#values
+0 25
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=<Class::Gem::Specification>#find_in_unresolved
+856 23
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#unresolved_deps
+calls=1 858
+858 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#values
+calls=1 858
+858 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=1 858
+858 343
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#flatten
+calls=1 858
+858 1478
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#unresolved_deps
+calls=1 858
+858 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#values
+calls=1 858
+858 12
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#map
+calls=1 858
+858 1434
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#flatten
+calls=1 858
+858 7592
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::File>#file?
+0 808
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#any?
+0 161
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=9 1379
+1379 129
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=10 1381
+1381 98
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 205
+205 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 23
+23 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 1379
+1379 28
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 1381
+1381 21
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 205
+205 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 23
+23 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=37 1379
+1379 529
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=37 1381
+1381 381
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=9 1379
+1379 750
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=10 1381
+1381 598
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 205
+205 46
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 23
+23 26
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 1379
+1379 111
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 1381
+1381 84
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 205
+205 24
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=2 23
+23 15
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=37 1379
+1379 650
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=37 1381
+1381 469
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=Gem::Specification#full_gem_path
+1631 127
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=Gem::Specification#contains_requirable_file?
+1375 340
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#full_gem_path
+calls=9 1376
+1376 10
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#suffixes
+calls=9 1377
+1377 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=9 1379
+1379 138
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#full_gem_path
+calls=2 1376
+1376 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#suffixes
+calls=2 1377
+1377 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 1379
+1379 30
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#full_gem_path
+calls=37 1376
+1376 31
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#suffixes
+calls=37 1377
+1377 28
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=37 1379
+1379 562
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#full_gem_path
+calls=9 1376
+1376 36
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#suffixes
+calls=9 1377
+1377 27
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=9 1379
+1379 785
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#full_gem_path
+calls=2 1376
+1376 13
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#suffixes
+calls=2 1377
+1377 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 1379
+1379 119
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#full_gem_path
+calls=37 1376
+1376 34
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#suffixes
+calls=37 1377
+1377 31
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=37 1379
+1379 686
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=<Class::Gem::Specification>#_all
+646 35
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=<Class::Gem::Specification>#each
+803 53
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 804
+804 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#_all
+calls=1 806
+806 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 806
+806 220
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 804
+804 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#_all
+calls=1 806
+806 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 806
+806 272
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 804
+804 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#_all
+calls=1 806
+806 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 806
+806 242
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 804
+804 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#_all
+calls=1 806
+806 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 806
+806 767
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 804
+804 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#_all
+calls=1 806
+806 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 806
+806 1120
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 804
+804 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#_all
+calls=1 806
+806 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 806
+806 1169
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 804
+804 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#_all
+calls=1 806
+806 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 806
+806 902
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 804
+804 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#_all
+calls=1 806
+806 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 806
+806 922
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Enumerable#find
+0 21
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#each
+calls=1 54
+54 227
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#each
+calls=1 848
+848 772
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#each
+calls=1 54
+54 1154
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#each
+calls=1 848
+848 931
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+fn=<Class::Gem::Specification>#unresolved_deps
+1057 23
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+fn=<Module::Gem>#suffixes
+839 112
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+fn=<Module::Gem>#find_unresolved_default_spec
+971 21
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#suffixes
+calls=1 972
+972 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 972
+972 25
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#suffixes
+calls=1 972
+972 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 972
+972 26
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb
+fn=Kernel#require
+34 44
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#find_unresolved_default_spec
+calls=1 35
+35 31
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#unresolved_deps
+calls=1 44
+44 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find
+calls=1 54
+54 229
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#find_in_unresolved
+calls=1 62
+62 1829
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#delete
+calls=4 64
+64 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=1 61
+61 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems.rb
+cfn=<Module::Gem>#find_unresolved_default_spec
+calls=1 35
+35 50
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#unresolved_deps
+calls=1 44
+44 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#find
+calls=1 54
+54 1168
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=<Class::Gem::Specification>#find_in_unresolved
+calls=1 62
+62 9063
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=<Class::Cocaine::CommandLine>#posix_spawn_available?
+18 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb
+cfn=Kernel#require
+calls=1 20
+20 2108
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=<Class::Cocaine::CommandLine>#best_runner
+45 12
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=<Class::Cocaine::CommandLine>#posix_spawn_available?
+calls=1 46
+46 2114
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=File#path
+calls=1 46
+46 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#expand_path
+calls=2 46
+46 17
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors.rb
+cfn=<Module::Kolors>#options
+calls=1 46
+46 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=Tempfile#path
+calls=1 46
+46 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#run
+calls=1 46
+46 1005
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=<Class::Cocaine::CommandLine>#runner
+31 18
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=<Class::Cocaine::CommandLine>#best_runner
+calls=1 32
+32 3154
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#detect_dominant_colors
+calls=1 45
+45 611268
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#class
+0 23
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#delete
+0 3
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Hash#initialize_copy
+0 6
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=String#initialize_copy
+0 15
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#initialize_dup
+0 50
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#initialize_copy
+calls=2 58
+58 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#initialize_copy
+calls=1 59
+59 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#initialize_copy
+calls=2 204
+204 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#initialize_copy
+calls=2 194
+194 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#initialize_copy
+calls=2 204
+204 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#initialize_copy
+calls=2 194
+194 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#initialize_copy
+calls=1 125
+125 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#initialize_copy
+calls=2 204
+204 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#initialize_copy
+calls=2 194
+194 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#initialize_copy
+calls=2 204
+204 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#initialize_copy
+calls=2 194
+194 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#initialize_copy
+calls=3 40
+40 4
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#dup
+0 78
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=3 59
+59 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=2 204
+204 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=2 194
+194 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=2 204
+204 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=2 194
+194 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=2 204
+204 15
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=2 194
+194 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=2 204
+204 12
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#initialize_dup
+calls=2 194
+194 12
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+fn=Cocaine::CommandLine#initialize
+56 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#dup
+calls=3 59
+59 12
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#delete
+calls=1 60
+60 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#class
+calls=1 60
+60 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=<Class::Cocaine::CommandLine>#runner
+calls=1 60
+60 614440
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors.rb
+fn=<Module::Kolors>#options
+29 6
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=IO#binmode
+0 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+fn=#<Class:0x007fae1ea2c730>#__getobj__
+341 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#block_given?
+0 14
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=BasicObject#equal?
+0 1
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+fn=#<Class:0x007fae1ea2c730>#__setobj__
+344 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#equal?
+calls=1 345
+345 1
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+fn=Delegator#initialize
+62 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+cfn=#<Class:0x007fae1ea2c730>#__setobj__
+calls=1 63
+63 4
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#&
+0 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#~
+0 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#[]=
+0 39
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#|
+0 23
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::File>#join
+0 3
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Kernel#respond_to_missing?
+0 24
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=#<Module:0x007fae1ea2e350>#rand
+0 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#respond_to_missing?
+calls=1 120
+120 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#to_s
+0 25
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#divmod
+0 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Time#strftime
+0 22
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#divmod
+calls=2 119
+119 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Fixnum#+
+0 91
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Time#initialize
+0 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#+
+calls=1 119
+119 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::Time>#now
+0 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Time#initialize
+calls=1 119
+119 4
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Module#===
+0 234
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tmpdir.rb
+fn=Dir::Tmpname#make_tmpname
+108 14
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=2 109
+109 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 119
+119 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Time#strftime
+calls=1 119
+119 24
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#to_s
+calls=2 120
+120 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=#<Module:0x007fae1ea2e350>#rand
+calls=1 120
+120 7
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=File::Stat#sticky?
+0 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=File::Stat#world_writable?
+0 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=File::Stat#writable?
+0 21
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=File::Stat#directory?
+0 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::File>#stat
+0 4
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::File>#expand_path
+0 65
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Array#each
+0 28868
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#expand_path
+calls=1 27
+27 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#stat
+calls=1 32
+32 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=File::Stat#directory?
+calls=1 32
+32 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=File::Stat#writable?
+calls=1 32
+32 21
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=File::Stat#world_writable?
+calls=1 32
+32 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=File::Stat#sticky?
+calls=1 32
+32 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#contains_requirable_file?
+calls=9 55
+55 177
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=10 1381
+1381 107
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#file?
+calls=30 1381
+1381 54
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#===
+calls=46 255
+255 18
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#requirement
+calls=2 255
+255 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/requirement.rb
+cfn=Gem::Requirement#satisfied_by?
+calls=2 255
+255 193
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Proc#call
+calls=2 198
+198 178
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=4 205
+205 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=2 25
+25 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#sort_obj
+calls=2 264
+264 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#contains_requirable_file?
+calls=2 860
+860 41
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 1381
+1381 23
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#file?
+calls=6 1381
+1381 12
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#===
+calls=46 255
+255 16
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#requirement
+calls=2 255
+255 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/requirement.rb
+cfn=Gem::Requirement#satisfied_by?
+calls=2 255
+255 170
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Proc#call
+calls=2 198
+198 157
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=4 205
+205 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=2 25
+25 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#sort_obj
+calls=2 264
+264 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#contains_requirable_file?
+calls=37 849
+849 710
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=37 1381
+1381 438
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#file?
+calls=111 1381
+1381 202
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#fetch
+calls=5 51
+51 14
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/color.rb
+cfn=ChunkyPNG::Color#rgba
+calls=5 52
+52 97
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#contains_requirable_file?
+calls=9 55
+55 946
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=10 1381
+1381 632
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#file?
+calls=30 1381
+1381 248
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#===
+calls=46 255
+255 78
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#requirement
+calls=2 255
+255 13
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/requirement.rb
+cfn=Gem::Requirement#satisfied_by?
+calls=2 255
+255 804
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Proc#call
+calls=2 198
+198 737
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=4 205
+205 22
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=2 25
+25 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#sort_obj
+calls=2 264
+264 14
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#contains_requirable_file?
+calls=2 860
+860 159
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=2 1381
+1381 91
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#file?
+calls=6 1381
+1381 49
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=String#===
+calls=46 255
+255 62
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency.rb
+cfn=Gem::Dependency#requirement
+calls=2 255
+255 8
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/requirement.rb
+cfn=Gem::Requirement#satisfied_by?
+calls=2 255
+255 627
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Proc#call
+calls=2 198
+198 580
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#===
+calls=4 205
+205 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#nil?
+calls=2 25
+25 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#sort_obj
+calls=2 264
+264 7
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/specification.rb
+cfn=Gem::Specification#contains_requirable_file?
+calls=37 849
+849 858
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#any?
+calls=37 1381
+1381 525
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#file?
+calls=111 1381
+1381 243
+cfl=/home/marsalis/kolors/(eval)
+cfn=SortedSet#add
+calls=5 320
+320 28
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+cfn=Ai4r::Clusterers::KMeans#eval
+calls=7200 114
+114 487431
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#<<
+calls=7200 114
+114 39537
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Float#+
+calls=21600 23
+23 8934
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors.rb
+cfn=Object#key_colors
+calls=8 12
+12 1609
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#keys
+calls=4 12
+12 18
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Enumerable#sort_by
+calls=4 12
+12 3721
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#first
+calls=4 12
+12 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#hash
+calls=4 12
+12 14
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#eql?
+calls=4 12
+12 16
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#kmeans_result
+calls=4 12
+12 7
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors.rb
+cfn=Object#dist
+calls=192 12
+12 2725
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#+
+calls=192 24
+24 90
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#merge
+calls=3 40
+40 15
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Object::Object>#[]
+0 3
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tmpdir.rb
+fn=<Class::Dir>#tmpdir
+20 7
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Object::Object>#[]
+calls=3 25
+25 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#each
+calls=1 25
+25 44
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tmpdir.rb
+fn=Dir::Tmpname#tmpdir
+104 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tmpdir.rb
+cfn=<Class::Dir>#tmpdir
+calls=1 105
+105 55
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::Hash>#try_convert
+0 3
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tmpdir.rb
+fn=Dir::Tmpname#create
+125 26
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::Hash>#try_convert
+calls=1 126
+126 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tmpdir.rb
+cfn=Dir::Tmpname#tmpdir
+calls=1 137
+137 57
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tmpdir.rb
+cfn=Dir::Tmpname#make_tmpname
+calls=1 141
+141 55
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::File>#join
+calls=1 141
+141 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+cfn=<Class::Delegator>#const_missing
+calls=6 148
+148 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#|
+calls=3 148
+148 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::IO>#open
+calls=1 146
+146 17
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#[]=
+calls=2 147
+147 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#~
+calls=1 148
+148 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Fixnum#&
+calls=1 148
+148 1
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Module::ObjectSpace>#define_finalizer
+0 3
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Module#const_get
+0 23
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+fn=<Class::Delegator>#const_missing
+53 16
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#const_get
+calls=1 54
+54 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#const_get
+calls=6 54
+54 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#const_get
+calls=1 54
+54 8
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Module#const_get
+calls=1 54
+54 5
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+fn=Tempfile::Remover#initialize
+270 4
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=#<Module:0x007fae1ea2e350>#block_given?
+0 1
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+fn=Tempfile#initialize
+128 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=#<Module:0x007fae1ea2e350>#block_given?
+calls=1 129
+129 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 133
+133 5
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+cfn=<Class::Delegator>#const_missing
+calls=1 134
+134 5
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Module::ObjectSpace>#define_finalizer
+calls=1 134
+134 3
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tmpdir.rb
+cfn=Dir::Tmpname#create
+calls=1 136
+136 181
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+cfn=Delegator#initialize
+calls=1 153
+153 6
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+fn=<Class::Tempfile>#open
+319 4
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 320
+320 211
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Kernel#block_given?
+calls=1 322
+322 2
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#open_downsampled_image
+86 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=<Class::Tempfile>#open
+calls=1 87
+87 217
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#open_downsampled_image
+calls=1 88
+88 9
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/delegate.rb
+cfn=#<Class:0x007fae1ea2c730>#__getobj__
+calls=1 293
+293 1
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#binmode
+calls=1 295
+295 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=File#initialize
+0 76
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=<Class::IO>#open
+0 40
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=File#initialize
+calls=1 82
+82 13
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=File#initialize
+calls=1 146
+146 15
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=File#initialize
+calls=1 66
+66 48
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+cfn=<Class::ChunkyPNG::Datastream>#from_io
+calls=1 66
+66 2363
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=IO#close
+calls=1 66
+66 13
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#remote_source_image?
+57 18
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#open_source_image
+71 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#remote_source_image?
+calls=1 72
+72 9
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=<Class::IO>#open
+calls=1 82
+82 15
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#create_thumb_crop_and_convert_to_png!
+61 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#open_source_image
+calls=1 62
+62 28
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#open_downsampled_image
+calls=1 63
+63 230
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors.rb
+cfn=<Module::Kolors>#options
+calls=1 66
+66 3
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 66
+66 614462
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#extract_colors_from_image
+43 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#create_thumb_crop_and_convert_to_png!
+calls=1 44
+44 614729
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#kmeans_result
+25 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#extract_colors_from_image
+calls=1 26
+26 614731
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#to_lab
+21 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#kmeans_result
+calls=1 22
+22 614733
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#to_facets
+9 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#to_lab
+calls=1 11
+11 614734
+
+fl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+fn=Kolors::DominantColors#initialize
+5 2
+
+fl=/home/marsalis/kolors/ruby_runtime
+fn=Class#new
+0 8
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#initialize
+calls=1 5
+5 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=Tempfile#initialize
+calls=1 320
+320 209
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/tempfile.rb
+cfn=Tempfile::Remover#initialize
+calls=1 133
+133 4
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/cocaine-0.5.1/lib/cocaine/command_line.rb
+cfn=Cocaine::CommandLine#initialize
+calls=1 65
+65 614461
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#initialize
+calls=2 209
+209 33
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#initialize
+calls=2 209
+209 26
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 106
+106 2
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=BasicObject#initialize
+calls=1 47
+47 1
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/datastream.rb
+cfn=ChunkyPNG::Datastream#initialize
+calls=1 76
+76 24
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Header#initialize
+calls=1 135
+135 381
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Generic#initialize
+calls=8 101
+101 212
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Generic#initialize
+calls=1 101
+101 37
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::Text#initialize
+calls=2 259
+259 38
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/chunk.rb
+cfn=ChunkyPNG::Chunk::End#initialize
+calls=1 162
+162 21
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/palette.rb
+cfn=ChunkyPNG::Palette#initialize
+calls=1 56
+56 10768
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#initialize
+calls=2 209
+209 129
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/version.rb
+cfn=Gem::Version#initialize
+calls=2 209
+209 98
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Exception#initialize
+calls=1 106
+106 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Hash#initialize
+calls=1 74
+74 2
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/chunky_png-1.2.7/lib/chunky_png/image.rb
+cfn=ChunkyPNG::Image#initialize
+calls=1 124
+124 11
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#initialize
+calls=1 99
+99 2846
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/clusterers/k_means.rb
+cfn=Ai4r::Clusterers::KMeans#initialize
+calls=1 100
+100 6
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Array#initialize
+calls=1 110
+110 35
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/ai4r-1.12/lib/ai4r/data/data_set.rb
+cfn=Ai4r::Data::DataSet#initialize
+calls=4 111
+111 23
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/rgb.rb
+cfn=Kolors::Rgb#initialize
+calls=4 22
+22 13
+
+fl=/home/marsalis/kolors/spec/profiles/profile_kolors.rb
+fn=Global#[No method]
+5 18
+cfl=/home/marsalis/kolors/ruby_runtime
+cfn=Class#new
+calls=1 5
+5 6
+cfl=/home/marsalis/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/kolors-0.0.2/lib/kolors/dominant_colors.rb
+cfn=Kolors::DominantColors#to_facets
+calls=1 6
+6 614735
+
