@@ -1,61 +1,75 @@
 module Kolors
   class DominantColors
     attr_accessor :src_image_path
-    
+
     def initialize(src_image_path)
       @src_image_path = src_image_path
     end
 
     def to_facets
       # Map each centroid to key_colors
-      facets = to_lab.each_with_index.collect do |color,index| 
-        { key_colors[key_colors.keys.sort_by {|c| dist(color, c) }.first] => kmeans_result.clusters[index].data_items.size}
-      end
       percentize(group_hashes_sum_values(facets))
     end
-    
+
     def to_rgb
       kmeans_result.centroids
     end  
-    
+
     def to_lab
-      kmeans_result.centroids.collect{|r,g,b| Kolors::Rgb.new(r,g,b).to_lab}
-    end
-    
-    def kmeans_result
-      @kmeans_result ||= extract_colors_from_image
-    end
-    
-    def color_bins_result
-      @color_bin_counts_result ||= extract_color_bin_percentages_from_image
-    end
-    
-    private
-    
-    def percentize(hash)
-      hash.collect{|color, count| {color => ((count.to_f / @colors.size.to_f)*100)}}.sort!{|a,b| b[b.keys.first] <=> a[a.keys.first] }
-    end
-    
-    def group_hashes_sum_values(array)
-      array.inject{|color, count| color.merge( count ){|k, old_v, new_v| old_v + new_v}}
+      to_rgb.map { |r,g,b| Kolors::Rgb.new(r,g,b).to_lab }
     end
 
-    def extract_colors_from_image
-      create_thumb_crop_and_convert_to_png!
-      colors = detect_dominant_colors
-      cleanup_temporary_files!
-      return colors
+    def kmeans_result
+      @result ||= colors { detect_dominant_colors }
     end
-    
-    def extract_color_bin_percentages_from_image
+
+    def color_bins_result
+      colors { detect_color_bin_percentages }
+    end
+
+    def colors(&block)
       create_thumb_crop_and_convert_to_png!
-      colors = detect_color_bin_percentages
+      colors_found = yield if block_given?
       cleanup_temporary_files!
-      return colors
+      colors_found
+    end
+
+    private
+
+    def facets
+      to_lab.each_with_index.map do |color,index| 
+        key_color_names(color, index)
+      end
+    end
+
+    def key_color_names(color, index)
+      {KEY_COLORS[first_lab_value(color)] => cluster_size(index)}
+    end
+
+    def first_lab_value(color)
+      KEY_COLORS.keys.sort_by {|c| dist(color, c) }.first
+    end
+
+    def cluster_size(index)
+      kmeans_result.clusters[index].data_items.size
+    end
+
+    def percentize(hash)
+      hash.map { |color, count| {color => color_precentage(count)} }.
+        sort! { |a,b| b[b.keys.first] <=> a[a.keys.first] }
+    end
+
+    def color_precentage(count)
+      (count.to_f / @colors.size.to_f)*100
+    end
+
+    def group_hashes_sum_values(array)
+      array.inject { |color, count| color.
+        merge(count) {|k, old_v, new_v| old_v + new_v} }
     end
 
     def remote_source_image?
-      @src_image_path =~ /^https?:\/\//
+      src_image_path =~ /^https?:\/\//
     end
 
     def create_thumb_crop_and_convert_to_png!
@@ -70,27 +84,37 @@ module Kolors
 
     def open_source_image
       if remote_source_image?
-        original_extension = URI.parse(@src_image_path).path.split('.').last
+        original_extension = URI.parse(src_image_path).path.split('.').last
 
         tempfile = Tempfile.open(["source", ".#{original_extension}"])
-        remote_file_data = open(@src_image_path).read
+        remote_file_data = open(src_image_path).read
 
         tempfile.write(RUBY_VERSION =~ /1.9/ ? remote_file_data.force_encoding("UTF-8") : remote_file_data)
         tempfile.close
-        return tempfile
+        tempfile
       else
-        return File.open(@src_image_path)
+        File.open(src_image_path)
       end
     end
 
-    def open_downsampled_image
-      tempfile = Tempfile.open(["downsampled", '.png'])
-      tempfile.binmode
-      tempfile
+    def open_downsampled_image(tempfile=Tempfile)
+      tempfile.open(["downsampled", '.png'])
     end
-    
+
     def collect_pixels
-      @colors ||= ChunkyPNG::Image.from_file(File.expand_path(@downsampled_image.path)).pixels.collect {|c| ChunkyPNG::Color.to_truecolor_bytes c }
+      @colors ||= pixels.map { |pixel| truecolor(pixel) }
+    end
+
+    def truecolor(pixel)
+      ChunkyPNG::Color.to_truecolor_bytes(pixel)
+    end
+
+    def downsampled_image_path
+      File.expand_path(@downsampled_image.path)
+    end
+
+    def pixels
+      ChunkyPNG::Image.from_file(downsampled_image_path).pixels
     end
 
     def detect_dominant_colors
@@ -100,14 +124,14 @@ module Kolors
       kmeans = Ai4r::Clusterers::KMeans.new
       result = kmeans.build(data, Kolors.options[:color_count])
     end
-    
+
     def detect_color_bin_percentages
-      color_bins = Array.new
-      collect_pixels.collect{|r,g,b| Kolors::Rgb.new(r,g,b).to_lab}.each do |color|
-        color_bins << {key_colors[key_colors.keys.sort_by {|c| dist(color, c) }.first] => 1}
-      end
-      
-      percentize(group_hashes_sum_values(color_bins))
+      bins =
+        collect_pixels.map {|r,g,b| Kolors::Rgb.new(r,g,b).to_lab}.
+        inject([]) { |color_bins, color| color_bins << {KEY_COLORS[KEY_COLORS.keys.
+          sort_by {|c| dist(color, c) }.first] => 1} }
+
+      percentize(group_hashes_sum_values(bins))
     end
 
     def cleanup_temporary_files!
