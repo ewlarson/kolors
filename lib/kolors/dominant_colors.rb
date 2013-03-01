@@ -1,3 +1,5 @@
+require 'parallel'
+
 module Kolors
   class DominantColors
     attr_accessor :src_image_path
@@ -43,7 +45,7 @@ module Kolors
     end
 
     def key_color_names(color, index)
-      {KEY_COLORS[first_lab_value(color)] => cluster_size(index)}
+      {distance_for(color) => cluster_size(index)}
     end
 
     def first_lab_value(color)
@@ -126,12 +128,23 @@ module Kolors
     end
 
     def detect_color_bin_percentages
-      bins =
-        collect_pixels.map {|r,g,b| Kolors::Rgb.new(r,g,b).to_lab}.
-        inject([]) { |color_bins, color| color_bins << {KEY_COLORS[KEY_COLORS.keys.
-          sort_by {|c| dist(color, c) }.first] => 1} }
+      percentize(group_hashes_sum_values(color_bins))
+    end
 
-      percentize(group_hashes_sum_values(bins))
+    def color_bins
+      pixels_as_lab.inject([]) { |bins, col| bins << {distance_for(col) => 1} }
+    end
+
+    def distance_for(color)
+      KEY_COLORS[first_lab_value(color)]
+    end
+
+    def convert_rgb_to_lab(r,g,b)
+      Kolors::Rgb.new(r,g,b).to_lab
+    end
+
+    def pixels_as_lab
+      collect_pixels.map { |r,g,b| convert_rgb_to_lab(r,g,b) }
     end
 
     def cleanup_temporary_files!
