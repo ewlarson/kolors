@@ -1,0 +1,1549 @@
+Thread ID: 69993401392660
+Total Time: 0.6151056989999999
+Sort by: total_time
+
+  %total   %self      total       self       wait      child            calls    Name
+--------------------------------------------------------------------------------
+ 100.00%   0.00%      0.615      0.000      0.000      0.615                1      Global#[No method]
+                      0.615      0.000      0.000      0.615              1/1      Kolors::DominantColors#to_facets
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.615      0.000      0.000      0.615              1/1      Global#[No method]
+ 100.00%   0.00%      0.615      0.000      0.000      0.615                1      Kolors::DominantColors#to_facets
+                      0.615      0.000      0.000      0.615              1/1      Kolors::DominantColors#to_lab
+--------------------------------------------------------------------------------
+                      0.615      0.000      0.000      0.615              1/1      Kolors::DominantColors#to_facets
+ 100.00%   0.00%      0.615      0.000      0.000      0.615                1      Kolors::DominantColors#to_lab
+                      0.615      0.000      0.000      0.615              1/5      Kolors::DominantColors#kmeans_result
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/5      Array#each
+                      0.615      0.000      0.000      0.615              1/5      Kolors::DominantColors#to_lab
+ 100.00%   0.00%      0.615      0.000      0.000      0.615                5     *Kolors::DominantColors#kmeans_result
+                      0.615      0.000      0.000      0.615              1/1      Kolors::DominantColors#extract_colors_from_image
+--------------------------------------------------------------------------------
+                      0.615      0.000      0.000      0.615              1/1      Kolors::DominantColors#kmeans_result
+ 100.00%   0.00%      0.615      0.000      0.000      0.615                1      Kolors::DominantColors#extract_colors_from_image
+                      0.615      0.000      0.000      0.615              1/1      Kolors::DominantColors#create_thumb_crop_and_convert_to_png!
+--------------------------------------------------------------------------------
+                      0.615      0.000      0.000      0.615              1/1      Kolors::DominantColors#extract_colors_from_image
+  99.99%   0.00%      0.615      0.000      0.000      0.615                1      Kolors::DominantColors#create_thumb_crop_and_convert_to_png!
+                      0.615      0.000      0.000      0.615             1/43      Class#new
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#open_downsampled_image
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#open_source_image
+                      0.000      0.000      0.000      0.000              1/3      <Module::Kolors>#options
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             4/43      Array#collect
+                      0.000      0.000      0.000      0.000             4/43      Array#initialize
+                      0.000      0.000      0.000      0.000             1/43      Tempfile#initialize
+                      0.000      0.000      0.000      0.000             1/43      Ai4r::Clusterers::KMeans#calculate_membership_clusters
+                      0.000      0.000      0.000      0.000             8/43      Gem::Version#bump
+                      0.000      0.000      0.000      0.000             2/43      Kernel#gem_original_require
+                      0.000      0.000      0.000      0.000             1/43      Array#flatten
+                      0.000      0.000      0.000      0.000             1/43      <Class::ChunkyPNG::Datastream>#from_io
+                      0.000      0.000      0.000      0.000             1/43      <Class::ChunkyPNG::Chunk::Header>#read
+                      0.000      0.000      0.000      0.000             2/43      ChunkyPNG::Canvas::PNGDecoding#from_datastream
+                      0.000      0.000      0.000      0.000             2/43      <Class::ChunkyPNG::Chunk::Text>#read
+                      0.000      0.000      0.000      0.000             1/43      <Class::ChunkyPNG::Chunk::End>#read
+                      0.000      0.000      0.000      0.000             1/43      <Class::ChunkyPNG::Palette>#from_chunks
+                      0.000      0.000      0.000      0.000             1/43      Set#initialize
+                      0.000      0.000      0.000      0.000             1/43      OilyPNG::PNGDecoding#decode_png_image_pass
+                      0.000      0.000      0.000      0.000             9/43      <Class::ChunkyPNG::Chunk::Generic>#read
+                      0.000      0.000      0.000      0.000             1/43      Global#[No method]
+                      0.000      0.000      0.000      0.000             1/43      <Class::Tempfile>#open
+                      0.615      0.000      0.000      0.615             1/43      Kolors::DominantColors#create_thumb_crop_and_convert_to_png!
+  99.98%   0.00%      0.615      0.000      0.000      0.615               43     *Class#new
+                      0.615      0.000      0.000      0.615              1/1      Cocaine::CommandLine#initialize
+                      0.011      0.000      0.000      0.011              1/2      ChunkyPNG::Palette#initialize
+                      0.003      0.000      0.000      0.003              5/5      Ai4r::Data::DataSet#initialize
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Chunk::Header#initialize
+                      0.000      0.000      0.000      0.000              9/9      ChunkyPNG::Chunk::Generic#initialize
+                      0.000      0.000      0.000      0.000              8/8      Gem::Version#initialize
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#initialize
+                      0.000      0.000      0.000      0.000              2/2      ChunkyPNG::Chunk::Text#initialize
+                      0.000      0.000      0.000      0.000              1/1      Array#initialize
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Chunk::End#initialize
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Datastream#initialize
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Image#initialize
+                      0.000      0.000      0.000      0.000              1/1      Ai4r::Clusterers::KMeans#initialize
+                      0.000      0.000      0.000      0.000              4/4      Kolors::Rgb#initialize
+                      0.000      0.000      0.000      0.000             2/10      Exception#initialize
+                      0.000      0.000      0.000      0.000              1/1      Tempfile::Remover#initialize
+                      0.000      0.000      0.000      0.000              1/1      Hash#initialize
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#initialize
+                      0.000      0.000      0.000      0.000              1/1      BasicObject#initialize
+--------------------------------------------------------------------------------
+                      0.615      0.000      0.000      0.615              1/1      Class#new
+  99.94%   0.00%      0.615      0.000      0.000      0.615                1      Cocaine::CommandLine#initialize
+                      0.615      0.000      0.000      0.615              1/1      <Class::Cocaine::CommandLine>#runner
+                      0.000      0.000      0.000      0.000             3/19      Kernel#dup
+                      0.000      0.000      0.000      0.000              1/5      Hash#delete
+                      0.000      0.000      0.000      0.000             1/20      Kernel#class
+--------------------------------------------------------------------------------
+                      0.615      0.000      0.000      0.615              1/1      Cocaine::CommandLine#initialize
+  99.94%   0.00%      0.615      0.000      0.000      0.615                1      <Class::Cocaine::CommandLine>#runner
+                      0.612      0.000      0.000      0.612              1/1      Kolors::DominantColors#detect_dominant_colors
+                      0.003      0.000      0.000      0.003              1/1      <Class::Cocaine::CommandLine>#best_runner
+--------------------------------------------------------------------------------
+                      0.612      0.000      0.000      0.612              1/1      <Class::Cocaine::CommandLine>#runner
+  99.43%   0.01%      0.612      0.000      0.000      0.612                1      Kolors::DominantColors#detect_dominant_colors
+                      0.607      0.000      0.000      0.607              1/1      Kolors::DominantColors#collect_pixels
+                      0.005      0.000      0.000      0.005              1/2      Enumerable#collect
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#percentize
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#group_hashes_sum_values
+                      0.000      0.000      0.000      0.000              1/2      Enumerable#each_with_index
+--------------------------------------------------------------------------------
+                      0.607      0.000      0.000      0.607              1/1      Kolors::DominantColors#detect_dominant_colors
+  98.65%   0.00%      0.607      0.000      0.000      0.607                1      Kolors::DominantColors#collect_pixels
+                      0.607      0.000      0.000      0.607              1/1      ChunkyPNG::Canvas::PNGDecoding#from_file
+                      0.000      0.000      0.000      0.000           1/7203      Array#collect
+                      0.000      0.000      0.000      0.000              1/4      <Class::File>#expand_path
+                      0.000      0.000      0.000      0.000              1/2      Tempfile#path
+--------------------------------------------------------------------------------
+                      0.607      0.000      0.000      0.607              1/1      Kolors::DominantColors#collect_pixels
+  98.61%   0.00%      0.607      0.000      0.000      0.607                1      ChunkyPNG::Canvas::PNGDecoding#from_file
+                      0.604      0.000      0.000      0.604              1/1      <Class::ChunkyPNG::Image>#from_datastream
+                      0.003      0.000      0.000      0.002              1/1      <Class::ChunkyPNG::Datastream>#from_file
+--------------------------------------------------------------------------------
+                      0.604      0.000      0.000      0.604              1/1      ChunkyPNG::Canvas::PNGDecoding#from_file
+  98.19%   0.00%      0.604      0.000      0.000      0.604                1      <Class::ChunkyPNG::Image>#from_datastream
+                      0.604      0.000      0.000      0.604              1/1      ChunkyPNG::Canvas::PNGDecoding#from_datastream
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#cleanup_temporary_files!
+--------------------------------------------------------------------------------
+                      0.604      0.000      0.000      0.604              1/1      <Class::ChunkyPNG::Image>#from_datastream
+  98.18%   0.01%      0.604      0.000      0.000      0.604                1      ChunkyPNG::Canvas::PNGDecoding#from_datastream
+                      0.565      0.000      0.000      0.565              1/1      Ai4r::Clusterers::KMeans#build
+                      0.036      0.000      0.000      0.036              1/1      <Class::ChunkyPNG::Palette>#from_chunks
+                      0.000      0.000      0.000      0.000              1/2      Fixnum#===
+                      0.000      0.000      0.000      0.000              1/3      <Module::Kolors>#options
+                      0.000      0.000      0.000      0.000             2/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            8/454      Enumerable#all?
+                      0.000      0.000      0.000      0.000            2/454      Array#flatten
+                      0.000      0.000      0.000      0.000            4/454      Gem::Specification#traverse
+                      0.000      0.000      0.000      0.000          193/454      Enumerable#inject
+                      0.000      0.000      0.000      0.000            2/454      <Module::Gem>#find_unresolved_default_spec
+                      0.000      0.000      0.000      0.000            1/454      Enumerable#each_entry
+                      0.000      0.000      0.000      0.000            8/454      Enumerable#sort_by
+                      0.000      0.000      0.000      0.000            1/454      <Class::Dir>#tmpdir
+                      0.000      0.000      0.000      0.000          210/454      Enumerable#any?
+                      0.000      0.000      0.000      0.000            1/454      Enumerable#each_slice
+                      0.000      0.000      0.000      0.000            2/454      Enumerable#find_all
+                      0.005      0.000      0.000      0.005            1/454      Enumerable#each_with_index
+                      0.006      0.001      0.000      0.005            8/454      <Class::Gem::Specification>#each
+                      0.022      0.015      0.000      0.007           12/454      <Module::Ai4r::Data::Statistics>#mean
+                      0.543      0.008      0.000      0.535            1/454      Ai4r::Clusterers::KMeans#calculate_membership_clusters
+  93.61%   3.92%      0.576      0.024      0.000      0.552              454     *Array#each
+                      0.495      0.009      0.000      0.486        7200/7200      Ai4r::Clusterers::KMeans#eval
+                      0.040      0.020      0.000      0.020        7200/7200      Ai4r::Data::DataSet#<<
+                      0.007      0.007      0.000      0.000     21600/108000      Float#+
+                      0.003      0.000      0.000      0.003              4/8      Enumerable#sort_by
+                      0.003      0.000      0.000      0.003            96/96      Gem::Specification#contains_requirable_file?
+                      0.002      0.000      0.000      0.002          192/192      Object#dist
+                      0.002      0.000      0.000      0.002              8/8      Gem::Requirement#satisfied_by?
+                      0.002      0.000      0.000      0.002              8/9      Proc#call
+                      0.001      0.000      0.000      0.001              8/8      Object#key_colors
+                      0.001      0.001      0.000      0.000          294/294      <Class::File>#file?
+                      0.000      0.000      0.000      0.000          184/184      String#===
+                      0.000      0.000      0.000      0.000              5/5      ChunkyPNG::Color#rgba
+                      0.000      0.000      0.000      0.000          192/193      Fixnum#+
+                      0.000      0.000      0.000      0.000              5/5      SortedSet#add
+                      0.000      0.000      0.000      0.000              8/8      Gem::Dependency#requirement
+                      0.000      0.000      0.000      0.000              1/1      File::Stat#writable?
+                      0.000      0.000      0.000      0.000           16/167      Module#===
+                      0.000      0.000      0.000      0.000              8/8      Gem::Specification#sort_obj
+                      0.000      0.000      0.000      0.000              3/4      Hash#merge
+                      0.000      0.000      0.000      0.000              4/4      Array#eql?
+                      0.000      0.000      0.000      0.000             4/10      Hash#keys
+                      0.000      0.000      0.000      0.000            4/388      Array#hash
+                      0.000      0.000      0.000      0.000              5/5      Array#fetch
+                      0.000      0.000      0.000      0.000           8/7214      Kernel#nil?
+                      0.000      0.000      0.000      0.000              1/1      <Class::File>#stat
+                      0.000      0.000      0.000      0.000              1/4      <Class::File>#expand_path
+                      0.000      0.000      0.000      0.000          4/14445      Array#first
+                      0.000      0.000      0.000      0.000              1/1      File::Stat#world_writable?
+                      0.000      0.000      0.000      0.000              1/1      File::Stat#directory?
+                      0.000      0.000      0.000      0.000              1/1      File::Stat#sticky?
+                      0.000      0.000      0.000      0.000           98/210      Enumerable#any?
+                      0.000      0.000      0.000      0.000              4/5      Kolors::DominantColors#kmeans_result
+--------------------------------------------------------------------------------
+                      0.565      0.000      0.000      0.565              1/1      ChunkyPNG::Canvas::PNGDecoding#from_datastream
+  91.89%   0.00%      0.565      0.000      0.000      0.565                1      Ai4r::Clusterers::KMeans#build
+                      0.543      0.000      0.000      0.543              1/1      Ai4r::Clusterers::KMeans#calculate_membership_clusters
+                      0.022      0.000      0.000      0.022              1/1      Ai4r::Clusterers::KMeans#recompute_centroids
+                      0.000      0.000      0.000      0.000              1/1      Ai4r::Clusterers::KMeans#calc_initial_centroids
+                      0.000      0.000      0.000      0.000              2/2      Ai4r::Clusterers::KMeans#stop_criteria_met
+--------------------------------------------------------------------------------
+                      0.543      0.000      0.000      0.543              1/1      Ai4r::Clusterers::KMeans#build
+  88.30%   0.00%      0.543      0.000      0.000      0.543                1      Ai4r::Clusterers::KMeans#calculate_membership_clusters
+                      0.543      0.008      0.000      0.535            1/454      Array#each
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.495      0.009      0.000      0.486        7200/7200      Array#each
+  80.51%   1.52%      0.495      0.009      0.000      0.486             7200      Ai4r::Clusterers::KMeans#eval
+                      0.439      0.026      0.000      0.414        7200/7203      Array#collect
+                      0.047      0.016      0.000      0.031        7200/7200      Ai4r::Clusterers::Clusterer#get_min_index
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000           1/7203      Kolors::DominantColors#collect_pixels
+                      0.022      0.000      0.000      0.022           1/7203      Proc#call
+                      0.025      0.005      0.000      0.020           1/7203      <Class::ChunkyPNG::Palette>#from_chunks
+                      0.439      0.026      0.000      0.414        7200/7203      Ai4r::Clusterers::KMeans#eval
+  79.03%   5.03%      0.486      0.031      0.000      0.455             7203      Array#collect
+                      0.414      0.037      0.000      0.377      28800/28800      Ai4r::Clusterers::KMeans#distance
+                      0.022      0.000      0.000      0.022              4/4      Ai4r::Data::DataSet#get_mean_or_mode
+                      0.020      0.012      0.000      0.008        7200/7200      ChunkyPNG::Color#to_truecolor_bytes
+                      0.000      0.000      0.000      0.000              4/4      Kolors::Rgb#to_lab
+                      0.000      0.000      0.000      0.000             4/43      Class#new
+--------------------------------------------------------------------------------
+                      0.414      0.037      0.000      0.377      28800/28800      Array#collect
+  67.24%   6.02%      0.414      0.037      0.000      0.377            28800      Ai4r::Clusterers::KMeans#distance
+                      0.377      0.045      0.000      0.332      28800/28800      Ai4r::Clusterers::Clusterer#euclidean_distance
+--------------------------------------------------------------------------------
+                      0.377      0.045      0.000      0.332      28800/28800      Ai4r::Clusterers::KMeans#distance
+  61.21%   7.26%      0.377      0.045      0.000      0.332            28800      Ai4r::Clusterers::Clusterer#euclidean_distance
+                      0.332      0.241      0.000      0.091      28800/36006      Array#each_index
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000          1/36006      Ai4r::Data::DataSet#default_data_labels
+                      0.003      0.003      0.000      0.000          5/36006      Ai4r::Data::DataSet#check_data_items
+                      0.028      0.028      0.000      0.000       7200/36006      Ai4r::Clusterers::Clusterer#get_min_index
+                      0.332      0.241      0.000      0.091      28800/36006      Ai4r::Clusterers::Clusterer#euclidean_distance
+  58.97%  44.15%      0.363      0.272      0.000      0.091            36006      Array#each_index
+                      0.059      0.059      0.000      0.000    172800/180029      Kernel#is_a?
+                      0.032      0.032      0.000      0.000     86400/108000      Float#+
+                      0.000      0.000      0.000      0.000             2/28      Array#[]=
+                      0.000      0.000      0.000      0.000             2/12      Fixnum#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000         5/180029      Ai4r::Data::DataSet#check_data_items
+                      0.000      0.000      0.000      0.000        12/180029      Ai4r::Data::DataSet#get_index
+                      0.000      0.000      0.000      0.000        12/180029      Integer#times
+                      0.003      0.003      0.000      0.000      7200/180029      Ai4r::Data::DataSet#<<
+                      0.059      0.059      0.000      0.000    172800/180029      Array#each_index
+  10.02%  10.02%      0.062      0.062      0.000      0.000           180029      Kernel#is_a?
+--------------------------------------------------------------------------------
+                      0.047      0.016      0.000      0.031        7200/7200      Ai4r::Clusterers::KMeans#eval
+   7.58%   2.62%      0.047      0.016      0.000      0.031             7200      Ai4r::Clusterers::Clusterer#get_min_index
+                      0.028      0.028      0.000      0.000       7200/36006      Array#each_index
+                      0.002      0.002      0.000      0.000       7200/14445      Array#first
+--------------------------------------------------------------------------------
+                      0.040      0.020      0.000      0.020        7200/7200      Array#each
+   6.45%   3.23%      0.040      0.020      0.000      0.020             7200      Ai4r::Data::DataSet#<<
+                      0.014      0.012      0.000      0.002        7196/7200      Ai4r::Data::DataSet#num_attributes
+                      0.003      0.003      0.000      0.000      7200/180029      Kernel#is_a?
+                      0.003      0.003      0.000      0.000        7200/7214      Kernel#nil?
+                      0.000      0.000      0.000      0.000              4/5      Ai4r::Data::DataSet#set_data_items
+--------------------------------------------------------------------------------
+                      0.007      0.007      0.000      0.000     21600/108000      Array#each
+                      0.032      0.032      0.000      0.000     86400/108000      Array#each_index
+   6.39%   6.39%      0.039      0.039      0.000      0.000           108000      Float#+
+--------------------------------------------------------------------------------
+                      0.036      0.000      0.000      0.036              1/1      ChunkyPNG::Canvas::PNGDecoding#from_datastream
+   5.81%   0.01%      0.036      0.000      0.000      0.036                1      <Class::ChunkyPNG::Palette>#from_chunks
+                      0.025      0.005      0.000      0.020           1/7203      Array#collect
+                      0.000      0.000      0.000      0.000              1/1      Enumerable#each_slice
+                      0.000      0.000      0.000      0.000             1/30      String#unpack
+                      0.000      0.000      0.000      0.000           1/7214      Kernel#nil?
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              8/9      Array#each
+                      0.022      0.000      0.000      0.022              1/9      Ai4r::Clusterers::KMeans#recompute_centroids
+   3.83%   0.01%      0.024      0.000      0.000      0.023                9      Proc#call
+                      0.022      0.000      0.000      0.022           1/7203      Array#collect
+                      0.001      0.000      0.000      0.001              8/8      Gem::Version#bump
+                      0.000      0.000      0.000      0.000              8/8      Comparable#<
+                      0.000      0.000      0.000      0.000              8/8      Comparable#>=
+                      0.000      0.000      0.000      0.000              8/8      Gem::Version#release
+--------------------------------------------------------------------------------
+                      0.022      0.000      0.000      0.022              1/1      Ai4r::Clusterers::KMeans#build
+   3.56%   0.00%      0.022      0.000      0.000      0.022                1      Ai4r::Clusterers::KMeans#recompute_centroids
+                      0.022      0.000      0.000      0.022              1/9      Proc#call
+--------------------------------------------------------------------------------
+                      0.022      0.000      0.000      0.022              4/4      Array#collect
+   3.56%   0.00%      0.022      0.000      0.000      0.022                4      Ai4r::Data::DataSet#get_mean_or_mode
+                      0.022      0.000      0.000      0.022              4/4      Integer#times
+                      0.000      0.000      0.000      0.000           4/7200      Ai4r::Data::DataSet#num_attributes
+--------------------------------------------------------------------------------
+                      0.022      0.000      0.000      0.022              4/4      Ai4r::Data::DataSet#get_mean_or_mode
+   3.56%   0.01%      0.022      0.000      0.000      0.022                4      Integer#times
+                      0.022      0.000      0.000      0.022            12/12      <Module::Ai4r::Data::Statistics>#mean
+                      0.000      0.000      0.000      0.000            12/28      Array#[]=
+                      0.000      0.000      0.000      0.000        12/180029      Kernel#is_a?
+                      0.000      0.000      0.000      0.000         12/14445      Array#first
+--------------------------------------------------------------------------------
+                      0.022      0.000      0.000      0.022            12/12      Integer#times
+   3.55%   0.01%      0.022      0.000      0.000      0.022               12      <Module::Ai4r::Data::Statistics>#mean
+                      0.022      0.015      0.000      0.007           12/454      Array#each
+                      0.000      0.000      0.000      0.000            12/12      Ai4r::Data::DataSet#get_index
+                      0.000      0.000      0.000      0.000            12/12      Float#/
+--------------------------------------------------------------------------------
+                      0.020      0.012      0.000      0.008        7200/7200      Array#collect
+   3.17%   1.92%      0.020      0.012      0.000      0.008             7200      ChunkyPNG::Color#to_truecolor_bytes
+                      0.003      0.003      0.000      0.000        7200/7200      OilyPNG::Color#r
+                      0.003      0.003      0.000      0.000        7200/7200      OilyPNG::Color#g
+                      0.003      0.003      0.000      0.000        7200/7200      OilyPNG::Color#b
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000           4/7200      Ai4r::Data::DataSet#get_mean_or_mode
+                      0.014      0.012      0.000      0.002        7196/7200      Ai4r::Data::DataSet#<<
+   2.30%   1.89%      0.014      0.012      0.000      0.002             7200      Ai4r::Data::DataSet#num_attributes
+                      0.002      0.002      0.000      0.000       7200/14445      Array#first
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              1/2      <Class::Cocaine::CommandLine>#posix_spawn_available?
+                      0.010      0.000      0.000      0.010              1/2      <Class::SortedSet>#setup
+   2.01%   0.01%      0.012      0.000      0.000      0.012                2      Kernel#require
+                      0.011      0.000      0.000      0.011              2/2      <Class::Gem::Specification>#find_in_unresolved
+                      0.001      0.000      0.000      0.001              2/4      Enumerable#find
+                      0.000      0.000      0.000      0.000              2/2      <Module::Gem>#find_unresolved_default_spec
+                      0.000      0.000      0.000      0.000              2/6      <Class::Gem::Specification>#unresolved_deps
+                      0.000      0.000      0.000      0.000              4/5      Hash#delete
+                      0.000      0.000      0.000      0.000             1/20      Kernel#class
+--------------------------------------------------------------------------------
+                      0.011      0.000      0.000      0.011              2/2      Kernel#require
+   1.75%   0.00%      0.011      0.000      0.000      0.011                2      <Class::Gem::Specification>#find_in_unresolved
+                      0.009      0.000      0.000      0.009              2/4      Array#flatten
+                      0.002      0.000      0.000      0.002             2/16      Array#map
+                      0.000      0.000      0.000      0.000              2/4      Hash#values
+                      0.000      0.000      0.000      0.000              2/6      <Class::Gem::Specification>#unresolved_deps
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      Array#flatten
+                      0.011      0.000      0.000      0.011              1/2      Class#new
+   1.74%   0.00%      0.011      0.000      0.000      0.011                2     *ChunkyPNG::Palette#initialize
+                      0.011      0.000      0.000      0.011              2/2      SortedSet#initialize
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Datastream#metadata
+--------------------------------------------------------------------------------
+                      0.011      0.000      0.000      0.011              2/2      ChunkyPNG::Palette#initialize
+   1.74%   0.00%      0.011      0.000      0.000      0.011                2     *SortedSet#initialize
+                      0.010      0.000      0.000      0.010              1/1      <Class::SortedSet>#setup
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Canvas::PNGDecoding#decode_png_pixelstream
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Datastream#imagedata
+                      0.000      0.000      0.000      0.000              1/1      Set#initialize
+--------------------------------------------------------------------------------
+                      0.010      0.000      0.000      0.010              1/1      SortedSet#initialize
+   1.68%   0.00%      0.010      0.000      0.000      0.010                1      <Class::SortedSet>#setup
+                      0.010      0.000      0.000      0.010              1/2      Kernel#require
+                      0.000      0.000      0.000      0.000              1/3      Module#module_eval
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/4      <Class::Gem::Specification>#find_in_unresolved_tree
+                      0.009      0.000      0.000      0.009              2/4      <Class::Gem::Specification>#find_in_unresolved
+   1.46%   0.01%      0.009      0.000      0.000      0.009                4     *Array#flatten
+                      0.008      0.000      0.000      0.008              2/2      <Class::Gem::Specification>#find_in_unresolved_tree
+                      0.005      0.000      0.000      0.005              4/8      Gem::Specification#method_missing
+                      0.002      0.000      0.000      0.002              2/2      <Module::Gem>#try_activate
+                      0.000      0.000      0.000      0.000              2/2      Kernel#gem_original_require
+                      0.000      0.000      0.000      0.000              2/2      Kernel#raise
+                      0.000      0.000      0.000      0.000              4/4      Exception#message
+                      0.000      0.000      0.000      0.000              2/2      String#end_with?
+                      0.000      0.000      0.000      0.000              2/2      String#start_with?
+                      0.000      0.000      0.000      0.000             1/16      Kernel#respond_to?
+                      0.000      0.000      0.000      0.000            2/167      Module#===
+                      0.000      0.000      0.000      0.000            2/454      Array#each
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+                      0.000      0.000      0.000      0.000              1/2      ChunkyPNG::Palette#initialize
+--------------------------------------------------------------------------------
+                      0.008      0.000      0.000      0.008              2/2      Array#flatten
+   1.37%   0.00%      0.008      0.000      0.000      0.008                2      <Class::Gem::Specification>#find_in_unresolved_tree
+                      0.001      0.000      0.000      0.001             2/16      Array#map
+                      0.000      0.000      0.000      0.000              2/3      Module#module_eval
+                      0.000      0.000      0.000      0.000              2/4      Hash#values
+                      0.000      0.000      0.000      0.000              2/6      <Class::Gem::Specification>#unresolved_deps
+                      0.000      0.000      0.000      0.000            2/167      Module#===
+                      0.000      0.000      0.000      0.000              2/4      Array#flatten
+--------------------------------------------------------------------------------
+                      0.003      0.000      0.000      0.003              4/8      Enumerable#find_all
+                      0.003      0.000      0.000      0.003              4/8      Enumerable#find
+   0.94%   0.01%      0.006      0.000      0.000      0.006                8      <Class::Gem::Specification>#each
+                      0.006      0.001      0.000      0.005            8/454      Array#each
+                      0.000      0.000      0.000      0.000              8/8      <Class::Gem::Specification>#_all
+                      0.000      0.000      0.000      0.000              8/9      Kernel#block_given?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000          4/14445      Array#each
+                      0.000      0.000      0.000      0.000          6/14445      Array#sort!
+                      0.000      0.000      0.000      0.000         12/14445      Integer#times
+                      0.000      0.000      0.000      0.000         10/14445      Ai4r::Data::DataSet#check_data_items
+                      0.000      0.000      0.000      0.000         13/14445      <Module::ChunkyPNG::Chunk>#read
+                      0.002      0.002      0.000      0.000       7200/14445      Ai4r::Clusterers::Clusterer#get_min_index
+                      0.002      0.002      0.000      0.000       7200/14445      Ai4r::Data::DataSet#num_attributes
+   0.81%   0.81%      0.005      0.005      0.000      0.000            14445      Array#first
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/8      Gem::Specification#method_missing
+                      0.005      0.000      0.000      0.005              4/8      Array#flatten
+   0.81%   0.01%      0.005      0.000      0.000      0.005                8     *Gem::Specification#method_missing
+                      0.004      0.000      0.000      0.004              2/2      Array#reverse_each
+                      0.000      0.000      0.000      0.000              2/6      Enumerable#find_all
+                      0.000      0.000      0.000      0.000              8/8      BasicObject#method_missing
+                      0.000      0.000      0.000      0.000             8/25      Kernel#respond_to_missing?
+                      0.000      0.000      0.000      0.000              4/8      Gem::Specification#method_missing
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#percentize
+                      0.005      0.000      0.000      0.005              1/2      Kolors::DominantColors#detect_dominant_colors
+   0.76%   0.00%      0.005      0.000      0.000      0.005                2      Enumerable#collect
+                      0.005      0.000      0.000      0.005              1/1      Enumerator#each
+                      0.000      0.000      0.000      0.000             1/15      Hash#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#detect_dominant_colors
+                      0.005      0.000      0.000      0.005              1/2      Enumerator#each
+   0.76%   0.00%      0.005      0.000      0.000      0.005                2      Enumerable#each_with_index
+                      0.005      0.000      0.000      0.005            1/454      Array#each
+--------------------------------------------------------------------------------
+                      0.005      0.000      0.000      0.005              1/1      Enumerable#collect
+   0.76%   0.00%      0.005      0.000      0.000      0.005                1      Enumerator#each
+                      0.005      0.000      0.000      0.005              1/2      Enumerable#each_with_index
+--------------------------------------------------------------------------------
+                      0.004      0.000      0.000      0.004              2/2      Gem::Specification#method_missing
+   0.72%   0.00%      0.004      0.000      0.000      0.004                2      Array#reverse_each
+                      0.004      0.004      0.000      0.000              4/4      Gem::Specification#traverse
+--------------------------------------------------------------------------------
+                      0.004      0.004      0.000      0.000              4/4      Array#reverse_each
+   0.71%   0.70%      0.004      0.004      0.000      0.000                4      Gem::Specification#traverse
+                      0.000      0.000      0.000      0.000              4/4      Gem::Specification#runtime_dependencies
+                      0.000      0.000      0.000      0.000            4/454      Array#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/8      Gem::Dependency#matching_specs
+                      0.003      0.000      0.000      0.003              4/8      Array#each
+   0.56%   0.06%      0.003      0.000      0.000      0.003                8      Enumerable#sort_by
+                      0.000      0.000      0.000      0.000          882/885      Float#<=>
+                      0.000      0.000      0.000      0.000              4/4      Array#<=>
+                      0.000      0.000      0.000      0.000            8/454      Array#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             8/16      Gem::Version#segments
+                      0.000      0.000      0.000      0.000             1/16      <Class::ChunkyPNG::Chunk::ImageData>#combine_chunks
+                      0.000      0.000      0.000      0.000             3/16      Cocaine::CommandLine#shell_quote
+                      0.001      0.000      0.000      0.001             2/16      <Class::Gem::Specification>#find_in_unresolved_tree
+                      0.002      0.000      0.000      0.002             2/16      <Class::Gem::Specification>#find_in_unresolved
+   0.52%   0.01%      0.003      0.000      0.000      0.003               16     *Array#map
+                      0.003      0.000      0.000      0.003              4/4      Gem::Dependency#to_specs
+                      0.000      0.000      0.000      0.000              8/8      String#to_i
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              2/4      Kernel#require
+                      0.002      0.000      0.000      0.002              2/4      <Class::Gem::Specification>#find_inactive_by_path
+   0.52%   0.00%      0.003      0.000      0.000      0.003                4      Enumerable#find
+                      0.003      0.000      0.000      0.003              4/8      <Class::Gem::Specification>#each
+--------------------------------------------------------------------------------
+                      0.003      0.000      0.000      0.003              4/4      Array#map
+   0.51%   0.00%      0.003      0.000      0.000      0.003                4      Gem::Dependency#to_specs
+                      0.003      0.000      0.000      0.003              4/4      Gem::Dependency#matching_specs
+--------------------------------------------------------------------------------
+                      0.003      0.000      0.000      0.003              1/1      <Class::Cocaine::CommandLine>#runner
+   0.51%   0.00%      0.003      0.000      0.000      0.003                1      <Class::Cocaine::CommandLine>#best_runner
+                      0.002      0.000      0.000      0.002              1/1      <Class::Cocaine::CommandLine>#posix_spawn_available?
+                      0.001      0.000      0.000      0.001              1/1      Cocaine::CommandLine#run
+                      0.000      0.000      0.000      0.000              2/4      <Class::File>#expand_path
+                      0.000      0.000      0.000      0.000              1/2      Tempfile#path
+                      0.000      0.000      0.000      0.000              1/3      <Module::Kolors>#options
+                      0.000      0.000      0.000      0.000              1/1      File#path
+--------------------------------------------------------------------------------
+                      0.003      0.000      0.000      0.003              4/4      Gem::Dependency#to_specs
+   0.51%   0.01%      0.003      0.000      0.000      0.003                4      Gem::Dependency#matching_specs
+                      0.003      0.000      0.000      0.003              4/6      Enumerable#find_all
+                      0.000      0.000      0.000      0.000              4/8      Enumerable#sort_by
+                      0.000      0.000      0.000      0.000              4/4      Array#reject!
+--------------------------------------------------------------------------------
+                      0.003      0.000      0.000      0.003            96/96      Array#each
+   0.49%   0.06%      0.003      0.000      0.000      0.003               96      Gem::Specification#contains_requirable_file?
+                      0.002      0.000      0.000      0.002           96/210      Enumerable#any?
+                      0.000      0.000      0.000      0.000            96/96      Gem::Specification#full_gem_path
+                      0.000      0.000      0.000      0.000            96/98      <Module::Gem>#suffixes
+--------------------------------------------------------------------------------
+                      0.003      0.000      0.000      0.003              5/5      Class#new
+   0.47%   0.00%      0.003      0.000      0.000      0.003                5      Ai4r::Data::DataSet#initialize
+                      0.003      0.000      0.000      0.003              1/5      Ai4r::Data::DataSet#set_data_items
+                      0.000      0.000      0.000      0.000              4/4      Ai4r::Data::DataSet#set_data_labels
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/5      Ai4r::Data::DataSet#<<
+                      0.003      0.000      0.000      0.003              1/5      Ai4r::Data::DataSet#initialize
+   0.47%   0.00%      0.003      0.000      0.000      0.003                5      Ai4r::Data::DataSet#set_data_items
+                      0.003      0.000      0.000      0.003              5/5      Ai4r::Data::DataSet#check_data_items
+                      0.000      0.000      0.000      0.000              1/1      Ai4r::Data::DataSet#default_data_labels
+--------------------------------------------------------------------------------
+                      0.003      0.000      0.000      0.003              5/5      Ai4r::Data::DataSet#set_data_items
+   0.47%   0.00%      0.003      0.000      0.000      0.003                5      Ai4r::Data::DataSet#check_data_items
+                      0.003      0.003      0.000      0.000          5/36006      Array#each_index
+                      0.000      0.000      0.000      0.000         10/14445      Array#first
+                      0.000      0.000      0.000      0.000         5/180029      Kernel#is_a?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/6      Gem::Specification#method_missing
+                      0.003      0.000      0.000      0.003              4/6      Gem::Dependency#matching_specs
+   0.46%   0.00%      0.003      0.000      0.000      0.003                6      Enumerable#find_all
+                      0.003      0.000      0.000      0.003              4/8      <Class::Gem::Specification>#each
+                      0.000      0.000      0.000      0.000            2/454      Array#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000           1/7214      ChunkyPNG::Palette#can_decode?
+                      0.000      0.000      0.000      0.000           1/7214      Set#initialize
+                      0.000      0.000      0.000      0.000           3/7214      Cocaine::CommandLine#shell_quote
+                      0.000      0.000      0.000      0.000           1/7214      <Class::ChunkyPNG::Palette>#from_chunks
+                      0.000      0.000      0.000      0.000           8/7214      Array#each
+                      0.003      0.003      0.000      0.000        7200/7214      Ai4r::Data::DataSet#<<
+   0.46%   0.46%      0.003      0.003      0.000      0.000             7214      Kernel#nil?
+--------------------------------------------------------------------------------
+                      0.003      0.003      0.000      0.000        7200/7200      ChunkyPNG::Color#to_truecolor_bytes
+   0.42%   0.42%      0.003      0.003      0.000      0.000             7200      OilyPNG::Color#r
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000           98/210      Array#each
+                      0.000      0.000      0.000      0.000            8/210      <Class::Gem::Platform>#match
+                      0.000      0.000      0.000      0.000            8/210      Gem::Version#bump
+                      0.002      0.000      0.000      0.002           96/210      Gem::Specification#contains_requirable_file?
+   0.42%   0.03%      0.003      0.000      0.000      0.002              210     *Enumerable#any?
+                      0.000      0.000      0.000      0.000          210/454      Array#each
+--------------------------------------------------------------------------------
+                      0.003      0.003      0.000      0.000        7200/7200      ChunkyPNG::Color#to_truecolor_bytes
+   0.42%   0.42%      0.003      0.003      0.000      0.000             7200      OilyPNG::Color#g
+--------------------------------------------------------------------------------
+                      0.003      0.000      0.000      0.002              1/1      ChunkyPNG::Canvas::PNGDecoding#from_file
+   0.41%   0.01%      0.003      0.000      0.000      0.002                1      <Class::ChunkyPNG::Datastream>#from_file
+                      0.002      0.000      0.000      0.002              1/3      <Class::IO>#open
+--------------------------------------------------------------------------------
+                      0.003      0.003      0.000      0.000        7200/7200      ChunkyPNG::Color#to_truecolor_bytes
+   0.41%   0.41%      0.003      0.003      0.000      0.000             7200      OilyPNG::Color#b
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/3      Kolors::DominantColors#open_source_image
+                      0.000      0.000      0.000      0.000              1/3      Dir::Tmpname#create
+                      0.002      0.000      0.000      0.002              1/3      <Class::ChunkyPNG::Datastream>#from_file
+   0.41%   0.01%      0.003      0.000      0.000      0.002                3      <Class::IO>#open
+                      0.002      0.000      0.000      0.002              1/1      <Class::ChunkyPNG::Datastream>#from_io
+                      0.000      0.000      0.000      0.000              3/3      File#initialize
+                      0.000      0.000      0.000      0.000              1/3      IO#close
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              1/1      <Class::IO>#open
+   0.39%   0.04%      0.002      0.000      0.000      0.002                1      <Class::ChunkyPNG::Datastream>#from_io
+                      0.002      0.000      0.000      0.002            13/13      <Module::ChunkyPNG::Chunk>#read
+                      0.000      0.000      0.000      0.000           57/167      Module#===
+                      0.000      0.000      0.000      0.000            14/14      IO#eof?
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Datastream>#verify_signature!
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002          192/192      Array#each
+   0.39%   0.07%      0.002      0.000      0.000      0.002              192      Object#dist
+                      0.001      0.000      0.000      0.001          192/192      Enumerable#map
+                      0.001      0.000      0.000      0.001          192/194      Enumerable#inject
+                      0.000      0.000      0.000      0.000          192/790      Float#**
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              1/1      <Class::Cocaine::CommandLine>#best_runner
+   0.34%   0.00%      0.002      0.000      0.000      0.002                1      <Class::Cocaine::CommandLine>#posix_spawn_available?
+                      0.002      0.000      0.000      0.002              1/2      Kernel#require
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002            13/13      <Class::ChunkyPNG::Datastream>#from_io
+   0.32%   0.05%      0.002      0.000      0.000      0.002               13      <Module::ChunkyPNG::Chunk>#read
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Chunk::Header>#read
+                      0.000      0.000      0.000      0.000              8/9      <Class::ChunkyPNG::Chunk::Generic>#read
+                      0.000      0.000      0.000      0.000            39/41      IO#read
+                      0.000      0.000      0.000      0.000            13/13      <Module::ChunkyPNG::Chunk>#verify_crc!
+                      0.000      0.000      0.000      0.000            26/30      String#unpack
+                      0.000      0.000      0.000      0.000              2/2      <Class::ChunkyPNG::Chunk::Text>#read
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Chunk::ImageData>#read
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Chunk::End>#read
+                      0.000      0.000      0.000      0.000            13/13      Hash#fetch
+                      0.000      0.000      0.000      0.000         13/14445      Array#first
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              8/8      Array#each
+   0.29%   0.01%      0.002      0.000      0.000      0.002                8      Gem::Requirement#satisfied_by?
+                      0.002      0.000      0.000      0.002              8/8      Enumerable#all?
+                      0.000      0.000      0.000      0.000            8/167      Module#===
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              2/2      Array#flatten
+   0.29%   0.00%      0.002      0.000      0.000      0.002                2      <Module::Gem>#try_activate
+                      0.002      0.000      0.000      0.002              2/2      <Class::Gem::Specification>#find_inactive_by_path
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              2/2      <Module::Gem>#try_activate
+   0.28%   0.00%      0.002      0.000      0.000      0.002                2      <Class::Gem::Specification>#find_inactive_by_path
+                      0.002      0.000      0.000      0.002              2/4      Enumerable#find
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              8/8      Gem::Requirement#satisfied_by?
+   0.28%   0.01%      0.002      0.000      0.000      0.002                8      Enumerable#all?
+                      0.000      0.000      0.000      0.000            8/454      Array#each
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              8/8      Array#each
+   0.22%   0.05%      0.001      0.000      0.000      0.001                8      Object#key_colors
+                      0.001      0.001      0.000      0.000          384/388      Array#hash
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001          192/192      Object#dist
+   0.19%   0.03%      0.001      0.000      0.000      0.001              192      Enumerable#map
+                      0.001      0.001      0.000      0.000          192/192      Range#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            4/388      Array#each
+                      0.001      0.001      0.000      0.000          384/388      Object#key_colors
+   0.17%   0.11%      0.001      0.001      0.000      0.000              388      Array#hash
+                      0.000      0.000      0.000      0.000        1164/1164      Float#hash
+--------------------------------------------------------------------------------
+                      0.001      0.001      0.000      0.000          294/294      Array#each
+   0.17%   0.17%      0.001      0.001      0.000      0.000              294      <Class::File>#file?
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              1/1      <Class::Cocaine::CommandLine>#best_runner
+   0.17%   0.01%      0.001      0.000      0.000      0.001                1      Cocaine::CommandLine#run
+                      0.001      0.000      0.000      0.001              1/1      Cocaine::CommandLine#execute
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#command
+                      0.000      0.000      0.000      0.000              3/3      Process::Status#exitstatus
+                      0.000      0.000      0.000      0.000             1/19      Array#include?
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#colored
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#log
+--------------------------------------------------------------------------------
+                      0.001      0.001      0.000      0.000          192/192      Enumerable#map
+   0.15%   0.12%      0.001      0.001      0.000      0.000              192      Range#each
+                      0.000      0.000      0.000      0.000          576/790      Float#**
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            1/194      Kolors::DominantColors#group_hashes_sum_values
+                      0.000      0.000      0.000      0.000            1/194      Cocaine::CommandLine#interpolate
+                      0.001      0.000      0.000      0.001          192/194      Object#dist
+   0.14%   0.03%      0.001      0.000      0.000      0.001              194      Enumerable#inject
+                      0.000      0.000      0.000      0.000             1/15      Hash#each
+                      0.000      0.000      0.000      0.000          193/454      Array#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             4/20      Array#<=>
+                      0.000      0.000      0.000      0.000             8/20      Comparable#>=
+                      0.000      0.000      0.000      0.000             8/20      Comparable#<
+   0.14%   0.08%      0.001      0.000      0.000      0.000               20      Gem::Version#<=>
+                      0.000      0.000      0.000      0.000            40/48      Gem::Version#segments
+                      0.000      0.000      0.000      0.000           80/167      Module#===
+                      0.000      0.000      0.000      0.000            20/20      Fixnum#<=>
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              1/1      Cocaine::CommandLine#run
+   0.13%   0.00%      0.001      0.000      0.000      0.001                1      Cocaine::CommandLine#execute
+                      0.001      0.000      0.000      0.001              1/1      Cocaine::CommandLine::ProcessRunner#call
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#environment
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              1/1      Cocaine::CommandLine#execute
+   0.13%   0.00%      0.001      0.000      0.000      0.001                1      Cocaine::CommandLine::ProcessRunner#call
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine::ProcessRunner#spawn
+                      0.000      0.000      0.000      0.000             1/41      IO#read
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine::ProcessRunner#waitpid
+                      0.000      0.000      0.000      0.000              1/3      IO#close
+                      0.000      0.000      0.000      0.000              1/1      <Class::IO>#pipe
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              8/8      Proc#call
+   0.12%   0.02%      0.001      0.000      0.000      0.001                8      Gem::Version#bump
+                      0.000      0.000      0.000      0.000            8/210      Enumerable#any?
+                      0.000      0.000      0.000      0.000             8/13      Array#join
+                      0.000      0.000      0.000      0.000             8/19      Kernel#dup
+                      0.000      0.000      0.000      0.000             8/48      Gem::Version#segments
+                      0.000      0.000      0.000      0.000             8/28      Array#[]=
+                      0.000      0.000      0.000      0.000             8/20      Kernel#class
+                      0.000      0.000      0.000      0.000              8/8      Array#pop
+                      0.000      0.000      0.000      0.000             8/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/13      ChunkyPNG::Chunk::End#initialize
+                      0.000      0.000      0.000      0.000             2/13      ChunkyPNG::Chunk::Text#initialize
+                      0.000      0.000      0.000      0.000             9/13      ChunkyPNG::Chunk::Generic#initialize
+                      0.000      0.000      0.000      0.000             1/13      ChunkyPNG::Chunk::Header#initialize
+   0.10%   0.04%      0.001      0.000      0.000      0.000               13      ChunkyPNG::Chunk::Base#initialize
+                      0.000      0.000      0.000      0.000            13/15      Hash#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/15      Enumerable#collect
+                      0.000      0.000      0.000      0.000             1/15      Enumerable#inject
+                      0.000      0.000      0.000      0.000            13/15      ChunkyPNG::Chunk::Base#initialize
+   0.08%   0.06%      0.001      0.000      0.000      0.000               15      Hash#each
+                      0.000      0.000      0.000      0.000              3/3      String#gsub
+                      0.000      0.000      0.000      0.000            19/19      Symbol#to_s
+                      0.000      0.000      0.000      0.000              8/8      Fixnum#to_f
+                      0.000      0.000      0.000      0.000             4/16      Float#*
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine::ProcessRunner#call
+   0.08%   0.00%      0.000      0.000      0.000      0.000                1      Cocaine::CommandLine::ProcessRunner#spawn
+                      0.000      0.000      0.000      0.000              1/1      <Module::Process>#spawn
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine::ProcessRunner#spawn
+   0.08%   0.06%      0.000      0.000      0.000      0.000                1      <Module::Process>#spawn
+                      0.000      0.000      0.000      0.000              1/1      <Object::Object>#to_hash
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Module::ChunkyPNG::Chunk>#read
+   0.08%   0.01%      0.000      0.000      0.000      0.000                1      <Class::ChunkyPNG::Chunk::Header>#read
+                      0.000      0.000      0.000      0.000             1/30      String#unpack
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/9      <Class::ChunkyPNG::Chunk::ImageData>#read
+                      0.000      0.000      0.000      0.000              8/9      <Module::ChunkyPNG::Chunk>#read
+   0.07%   0.01%      0.000      0.000      0.000      0.000                9      <Class::ChunkyPNG::Chunk::Generic>#read
+                      0.000      0.000      0.000      0.000             9/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000        1164/1164      Array#hash
+   0.07%   0.07%      0.000      0.000      0.000      0.000             1164      Float#hash
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Proc#call
+   0.06%   0.00%      0.000      0.000      0.000      0.000                8      Comparable#<
+                      0.000      0.000      0.000      0.000             8/20      Gem::Version#<=>
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.06%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Chunk::Header#initialize
+                      0.000      0.000      0.000      0.000             1/13      ChunkyPNG::Chunk::Base#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Proc#call
+   0.06%   0.00%      0.000      0.000      0.000      0.000                8      Comparable#>=
+                      0.000      0.000      0.000      0.000             8/20      Gem::Version#<=>
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000           12/790      Kolors::Rgb#xyz_standardize
+                      0.000      0.000      0.000      0.000           10/790      Kolors::Rgb#rgb_standardize
+                      0.000      0.000      0.000      0.000          192/790      Object#dist
+                      0.000      0.000      0.000      0.000          576/790      Range#each
+   0.06%   0.06%      0.000      0.000      0.000      0.000              790      Float#**
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/41      <Class::ChunkyPNG::Datastream>#verify_signature!
+                      0.000      0.000      0.000      0.000             1/41      Cocaine::CommandLine::ProcessRunner#call
+                      0.000      0.000      0.000      0.000            39/41      <Module::ChunkyPNG::Chunk>#read
+   0.06%   0.06%      0.000      0.000      0.000      0.000               41      IO#read
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            3/885      Array#sort!
+                      0.000      0.000      0.000      0.000          882/885      Enumerable#sort_by
+   0.06%   0.06%      0.000      0.000      0.000      0.000              885      Float#<=>
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      Array#flatten
+   0.05%   0.05%      0.000      0.000      0.000      0.000                2      Kernel#gem_original_require
+                      0.000      0.000      0.000      0.000             2/12      Exception#exception
+                      0.000      0.000      0.000      0.000             2/12      Exception#backtrace
+                      0.000      0.000      0.000      0.000             2/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      SortedSet#initialize
+   0.05%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Canvas::PNGDecoding#decode_png_pixelstream
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Canvas::PNGDecoding#decode_png_without_interlacing
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Palette#can_decode?
+                      0.000      0.000      0.000      0.000              1/2      Fixnum#===
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/3      <Class::SortedSet>#setup
+                      0.000      0.000      0.000      0.000              2/3      <Class::Gem::Specification>#find_in_unresolved_tree
+   0.05%   0.04%      0.000      0.000      0.000      0.000                3      Module#module_eval
+                      0.000      0.000      0.000      0.000            12/12      Module#method_added
+                      0.000      0.000      0.000      0.000              1/1      Module#remove_method
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              9/9      Class#new
+   0.05%   0.01%      0.000      0.000      0.000      0.000                9      ChunkyPNG::Chunk::Generic#initialize
+                      0.000      0.000      0.000      0.000             9/13      ChunkyPNG::Chunk::Base#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Class#new
+   0.05%   0.01%      0.000      0.000      0.000      0.000                8      Gem::Version#initialize
+                      0.000      0.000      0.000      0.000              8/8      <Class::Gem::Version>#correct?
+                      0.000      0.000      0.000      0.000             8/19      Kernel#dup
+                      0.000      0.000      0.000      0.000              8/9      String#strip
+                      0.000      0.000      0.000      0.000             8/20      Kernel#class
+                      0.000      0.000      0.000      0.000             8/16      String#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Canvas::PNGDecoding#decode_png_pixelstream
+   0.04%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Canvas::PNGDecoding#decode_png_without_interlacing
+                      0.000      0.000      0.000      0.000              1/1      OilyPNG::PNGDecoding#decode_png_image_pass
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Canvas::PNGDecoding#decode_png_without_interlacing
+   0.04%   0.04%      0.000      0.000      0.000      0.000                1      OilyPNG::PNGDecoding#decode_png_image_pass
+                      0.000      0.000      0.000      0.000              1/2      Kernel#kind_of?
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#open_downsampled_image
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#create_thumb_crop_and_convert_to_png!
+   0.04%   0.00%      0.000      0.000      0.000      0.000                2     *Kolors::DominantColors#open_downsampled_image
+                      0.000      0.000      0.000      0.000              1/1      <Class::Tempfile>#open
+                      0.000      0.000      0.000      0.000              1/1      IO#binmode
+                      0.000      0.000      0.000      0.000              1/1      #<Class:0x007f5137f90490>#__getobj__
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#open_downsampled_image
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             8/48      Gem::Version#bump
+                      0.000      0.000      0.000      0.000            40/48      Gem::Version#<=>
+   0.04%   0.02%      0.000      0.000      0.000      0.000               48      Gem::Version#segments
+                      0.000      0.000      0.000      0.000              8/8      String#scan
+                      0.000      0.000      0.000      0.000             8/16      Array#map
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Gem::Specification#method_missing
+   0.04%   0.02%      0.000      0.000      0.000      0.000                8      BasicObject#method_missing
+                      0.000      0.000      0.000      0.000              8/8      NoMethodError#initialize
+                      0.000      0.000      0.000      0.000             8/12      Exception#backtrace
+                      0.000      0.000      0.000      0.000             8/12      Exception#exception
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#open_downsampled_image
+   0.04%   0.00%      0.000      0.000      0.000      0.000                1      <Class::Tempfile>#open
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+                      0.000      0.000      0.000      0.000              1/9      Kernel#block_given?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            2/167      Dir::Tmpname#make_tmpname
+                      0.000      0.000      0.000      0.000            2/167      Array#flatten
+                      0.000      0.000      0.000      0.000            2/167      <Class::Gem::Specification>#find_in_unresolved_tree
+                      0.000      0.000      0.000      0.000            8/167      Gem::Requirement#satisfied_by?
+                      0.000      0.000      0.000      0.000           16/167      Array#each
+                      0.000      0.000      0.000      0.000           57/167      <Class::ChunkyPNG::Datastream>#from_io
+                      0.000      0.000      0.000      0.000           80/167      Gem::Version#<=>
+   0.04%   0.04%      0.000      0.000      0.000      0.000              167      Module#===
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.03%   0.00%      0.000      0.000      0.000      0.000                1      Tempfile#initialize
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#create
+                      0.000      0.000      0.000      0.000              1/1      Delegator#initialize
+                      0.000      0.000      0.000      0.000              1/9      <Class::Delegator>#const_missing
+                      0.000      0.000      0.000      0.000              1/1      <Module::ObjectSpace>#define_finalizer
+                      0.000      0.000      0.000      0.000              1/1      #<Module:0x007f5137f91f70>#block_given?
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Gem::Dependency#matching_specs
+   0.03%   0.01%      0.000      0.000      0.000      0.000                4      Array#reject!
+                      0.000      0.000      0.000      0.000              8/8      <Class::Gem::Platform>#match
+                      0.000      0.000      0.000      0.000              8/8      Gem::Specification#platform
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000          184/184      Array#each
+   0.03%   0.03%      0.000      0.000      0.000      0.000              184      String#===
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Enumerable#sort_by
+   0.03%   0.01%      0.000      0.000      0.000      0.000                4      Array#<=>
+                      0.000      0.000      0.000      0.000             4/20      Gem::Version#<=>
+                      0.000      0.000      0.000      0.000              4/4      String#<=>
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Palette>#from_chunks
+   0.03%   0.00%      0.000      0.000      0.000      0.000                1      Enumerable#each_slice
+                      0.000      0.000      0.000      0.000            1/454      Array#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            13/13      <Module::ChunkyPNG::Chunk>#read
+   0.03%   0.02%      0.000      0.000      0.000      0.000               13      <Module::ChunkyPNG::Chunk>#verify_crc!
+                      0.000      0.000      0.000      0.000            26/26      <Module::Zlib>#crc32
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#initialize
+   0.03%   0.00%      0.000      0.000      0.000      0.000                1      Dir::Tmpname#create
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#tmpdir
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#make_tmpname
+                      0.000      0.000      0.000      0.000              1/3      <Class::IO>#open
+                      0.000      0.000      0.000      0.000              6/9      <Class::Delegator>#const_missing
+                      0.000      0.000      0.000      0.000              1/1      <Class::File>#join
+                      0.000      0.000      0.000      0.000              1/1      <Class::Hash>#try_convert
+                      0.000      0.000      0.000      0.000             2/28      Array#[]=
+                      0.000      0.000      0.000      0.000             3/18      Fixnum#|
+                      0.000      0.000      0.000      0.000              1/1      Fixnum#~
+                      0.000      0.000      0.000      0.000              1/1      Fixnum#&
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/30      <Class::ChunkyPNG::Palette>#from_chunks
+                      0.000      0.000      0.000      0.000             1/30      <Class::ChunkyPNG::Chunk::Header>#read
+                      0.000      0.000      0.000      0.000             2/30      <Class::ChunkyPNG::Chunk::Text>#read
+                      0.000      0.000      0.000      0.000            26/30      <Module::ChunkyPNG::Chunk>#read
+   0.03%   0.03%      0.000      0.000      0.000      0.000               30      String#unpack
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Array#collect
+   0.03%   0.00%      0.000      0.000      0.000      0.000                4      Kolors::Rgb#to_lab
+                      0.000      0.000      0.000      0.000              4/4      Kolors::Rgb#rgb_to_xyz
+                      0.000      0.000      0.000      0.000              4/4      Kolors::Rgb#xyz_to_lab
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Array#reject!
+   0.02%   0.01%      0.000      0.000      0.000      0.000                8      <Class::Gem::Platform>#match
+                      0.000      0.000      0.000      0.000            8/210      Enumerable#any?
+                      0.000      0.000      0.000      0.000              8/8      <Module::Gem>#platforms
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#run
+   0.02%   0.00%      0.000      0.000      0.000      0.000                1      Cocaine::CommandLine#command
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#interpolate
+                      0.000      0.000      0.000      0.000             1/13      Array#join
+                      0.000      0.000      0.000      0.000              1/9      String#strip
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             3/19      Cocaine::CommandLine#initialize
+                      0.000      0.000      0.000      0.000             8/19      Gem::Version#initialize
+                      0.000      0.000      0.000      0.000             8/19      Gem::Version#bump
+   0.02%   0.01%      0.000      0.000      0.000      0.000               19      Kernel#dup
+                      0.000      0.000      0.000      0.000            19/23      Kernel#initialize_dup
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#command
+   0.02%   0.00%      0.000      0.000      0.000      0.000                1      Cocaine::CommandLine#interpolate
+                      0.000      0.000      0.000      0.000            1/194      Enumerable#inject
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            96/96      Gem::Specification#contains_requirable_file?
+   0.02%   0.02%      0.000      0.000      0.000      0.000               96      Gem::Specification#full_gem_path
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Module::Process>#spawn
+   0.02%   0.02%      0.000      0.000      0.000      0.000                1      <Object::Object>#to_hash
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             2/98      <Module::Gem>#find_unresolved_default_spec
+                      0.000      0.000      0.000      0.000            96/98      Gem::Specification#contains_requirable_file?
+   0.02%   0.02%      0.000      0.000      0.000      0.000               98      <Module::Gem>#suffixes
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Gem::Version#initialize
+   0.02%   0.01%      0.000      0.000      0.000      0.000                8      <Class::Gem::Version>#correct?
+                      0.000      0.000      0.000      0.000             8/11      String#=~
+                      0.000      0.000      0.000      0.000             8/16      String#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Ai4r::Clusterers::KMeans#build
+   0.02%   0.00%      0.000      0.000      0.000      0.000                1      Ai4r::Clusterers::KMeans#calc_initial_centroids
+                      0.000      0.000      0.000      0.000            18/19      Array#include?
+                      0.000      0.000      0.000      0.000              9/9      Kernel#rand
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine::ProcessRunner#call
+   0.02%   0.00%      0.000      0.000      0.000      0.000                1      Cocaine::CommandLine::ProcessRunner#waitpid
+                      0.000      0.000      0.000      0.000              1/1      <Module::Process>#waitpid
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5      Array#each
+   0.02%   0.01%      0.000      0.000      0.000      0.000                5      ChunkyPNG::Color#rgba
+                      0.000      0.000      0.000      0.000            15/15      Fixnum#<<
+                      0.000      0.000      0.000      0.000            15/18      Fixnum#|
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      BasicObject#method_missing
+   0.02%   0.01%      0.000      0.000      0.000      0.000                8      NoMethodError#initialize
+                      0.000      0.000      0.000      0.000              8/8      NameError#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3      Hash#each
+   0.02%   0.00%      0.000      0.000      0.000      0.000                3      String#gsub
+                      0.000      0.000      0.000      0.000              3/3      Cocaine::CommandLine#shell_quote
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Proc#call
+   0.02%   0.00%      0.000      0.000      0.000      0.000                8      Gem::Version#release
+                      0.000      0.000      0.000      0.000              8/8      Gem::Version#prerelease?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/13      Cocaine::CommandLine#command
+                      0.000      0.000      0.000      0.000             1/13      <Class::ChunkyPNG::Chunk::ImageData>#combine_chunks
+                      0.000      0.000      0.000      0.000             3/13      Cocaine::CommandLine#shell_quote
+                      0.000      0.000      0.000      0.000             8/13      Gem::Version#bump
+   0.01%   0.01%      0.000      0.000      0.000      0.000               13      Array#join
+                      0.000      0.000      0.000      0.000             8/12      Fixnum#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine::ProcessRunner#waitpid
+   0.01%   0.01%      0.000      0.000      0.000      0.000                1      <Module::Process>#waitpid
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             4/23      Hash#merge
+                      0.000      0.000      0.000      0.000            19/23      Kernel#dup
+   0.01%   0.01%      0.000      0.000      0.000      0.000               23      Kernel#initialize_dup
+                      0.000      0.000      0.000      0.000            10/10      String#initialize_copy
+                      0.000      0.000      0.000      0.000              8/8      Array#initialize_copy
+                      0.000      0.000      0.000      0.000              5/5      Hash#initialize_copy
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            1/193      Time#initialize
+                      0.000      0.000      0.000      0.000          192/193      Array#each
+   0.01%   0.01%      0.000      0.000      0.000      0.000              193      Fixnum#+
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      <Module::ChunkyPNG::Chunk>#read
+   0.01%   0.00%      0.000      0.000      0.000      0.000                2      <Class::ChunkyPNG::Chunk::Text>#read
+                      0.000      0.000      0.000      0.000             2/30      String#unpack
+                      0.000      0.000      0.000      0.000             2/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Kolors::Rgb#to_lab
+   0.01%   0.00%      0.000      0.000      0.000      0.000                4      Kolors::Rgb#rgb_to_xyz
+                      0.000      0.000      0.000      0.000            12/12      Kolors::Rgb#rgb_standardize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            26/26      <Module::ChunkyPNG::Chunk>#verify_crc!
+   0.01%   0.01%      0.000      0.000      0.000      0.000               26      <Module::Zlib>#crc32
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Image>#from_datastream
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Kolors::DominantColors#cleanup_temporary_files!
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#close
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#remote_source_image?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3      <Class::IO>#open
+   0.01%   0.01%      0.000      0.000      0.000      0.000                3      File#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Kolors::Rgb#to_lab
+   0.01%   0.00%      0.000      0.000      0.000      0.000                4      Kolors::Rgb#xyz_to_lab
+                      0.000      0.000      0.000      0.000            12/12      Kolors::Rgb#xyz_standardize
+                      0.000      0.000      0.000      0.000            12/12      Float#round
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/5      ChunkyPNG::Datastream#metadata
+                      0.000      0.000      0.000      0.000              4/5      Gem::Specification#runtime_dependencies
+   0.01%   0.01%      0.000      0.000      0.000      0.000                5      Array#select
+                      0.000      0.000      0.000      0.000            16/16      Gem::Dependency#type
+                      0.000      0.000      0.000      0.000             9/16      Kernel#respond_to?
+                      0.000      0.000      0.000      0.000            16/16      Symbol#==
+                      0.000      0.000      0.000      0.000              2/7      Hash#[]=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      SortedSet#initialize
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Datastream#imagedata
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Chunk::ImageData>#combine_chunks
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             2/12      Kernel#gem_original_require
+                      0.000      0.000      0.000      0.000             8/12      BasicObject#method_missing
+                      0.000      0.000      0.000      0.000             2/12      Kernel#raise
+   0.01%   0.01%      0.000      0.000      0.000      0.000               12      Exception#backtrace
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Gem::Specification#traverse
+   0.01%   0.00%      0.000      0.000      0.000      0.000                4      Gem::Specification#runtime_dependencies
+                      0.000      0.000      0.000      0.000              4/5      Array#select
+                      0.000      0.000      0.000      0.000              4/4      Gem::Specification#dependencies
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      SortedSet#initialize
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Set#initialize
+                      0.000      0.000      0.000      0.000              1/1      SortedSet#merge
+                      0.000      0.000      0.000      0.000           1/7214      Kernel#nil?
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Module::ChunkyPNG::Chunk>#read
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      <Class::ChunkyPNG::Chunk::ImageData>#read
+                      0.000      0.000      0.000      0.000              1/9      <Class::ChunkyPNG::Chunk::Generic>#read
+                      0.000      0.000      0.000      0.000              1/2      String#bytesize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#cleanup_temporary_files!
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Tempfile#close
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#close!
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Datastream#imagedata
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      <Class::ChunkyPNG::Chunk::ImageData>#combine_chunks
+                      0.000      0.000      0.000      0.000              1/1      <Class::Zlib::Inflate>#inflate
+                      0.000      0.000      0.000      0.000             1/16      Array#map
+                      0.000      0.000      0.000      0.000             1/13      Array#join
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Gem::Version#release
+   0.01%   0.01%      0.000      0.000      0.000      0.000                8      Gem::Version#prerelease?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      NoMethodError#initialize
+   0.01%   0.00%      0.000      0.000      0.000      0.000                8      NameError#initialize
+                      0.000      0.000      0.000      0.000             8/10      Exception#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/19      Cocaine::CommandLine#run
+                      0.000      0.000      0.000      0.000            18/19      Ai4r::Clusterers::KMeans#calc_initial_centroids
+   0.01%   0.01%      0.000      0.000      0.000      0.000               19      Array#include?
+                      0.000      0.000      0.000      0.000            14/19      Array#==
+                      0.000      0.000      0.000      0.000            36/57      Fixnum#==
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#close
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Tempfile#close!
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#unlink
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#_close
+                      0.000      0.000      0.000      0.000              1/9      <Class::Delegator>#const_missing
+                      0.000      0.000      0.000      0.000              1/1      <Module::ObjectSpace>#undefine_finalizer
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3      String#gsub
+   0.01%   0.00%      0.000      0.000      0.000      0.000                3      Cocaine::CommandLine#shell_quote
+                      0.000      0.000      0.000      0.000              3/3      Cocaine::CommandLine#unix?
+                      0.000      0.000      0.000      0.000              3/3      String#split
+                      0.000      0.000      0.000      0.000             3/16      Array#map
+                      0.000      0.000      0.000      0.000             3/13      Array#join
+                      0.000      0.000      0.000      0.000           3/7214      Kernel#nil?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      Array#flatten
+   0.01%   0.00%      0.000      0.000      0.000      0.000                2      Kernel#raise
+                      0.000      0.000      0.000      0.000             2/12      Exception#backtrace
+                      0.000      0.000      0.000      0.000             2/12      Exception#exception
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             3/11      Kernel#!~
+                      0.000      0.000      0.000      0.000             8/11      <Class::Gem::Version>#correct?
+   0.01%   0.01%      0.000      0.000      0.000      0.000               11      String#=~
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      Kernel#require
+   0.01%   0.00%      0.000      0.000      0.000      0.000                2      <Module::Gem>#find_unresolved_default_spec
+                      0.000      0.000      0.000      0.000            2/454      Array#each
+                      0.000      0.000      0.000      0.000             2/98      <Module::Gem>#suffixes
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#create
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Dir::Tmpname#tmpdir
+                      0.000      0.000      0.000      0.000              1/1      <Class::Dir>#tmpdir
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            12/12      Kolors::Rgb#rgb_to_xyz
+   0.01%   0.01%      0.000      0.000      0.000      0.000               12      Kolors::Rgb#rgb_standardize
+                      0.000      0.000      0.000      0.000           10/790      Float#**
+                      0.000      0.000      0.000      0.000            12/16      Float#*
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#tmpdir
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      <Class::Dir>#tmpdir
+                      0.000      0.000      0.000      0.000            1/454      Array#each
+                      0.000      0.000      0.000      0.000              3/3      <Object::Object>#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#create
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Dir::Tmpname#make_tmpname
+                      0.000      0.000      0.000      0.000              1/1      Time#strftime
+                      0.000      0.000      0.000      0.000              1/1      #<Module:0x007f5137f91f70>#rand
+                      0.000      0.000      0.000      0.000              1/1      <Class::Time>#now
+                      0.000      0.000      0.000      0.000             2/12      Fixnum#to_s
+                      0.000      0.000      0.000      0.000            2/167      Module#===
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/4      Array#each
+                      0.000      0.000      0.000      0.000              2/4      <Class::Cocaine::CommandLine>#best_runner
+                      0.000      0.000      0.000      0.000              1/4      Kolors::DominantColors#collect_pixels
+   0.01%   0.01%      0.000      0.000      0.000      0.000                4      <Class::File>#expand_path
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Set#initialize
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      SortedSet#merge
+                      0.000      0.000      0.000      0.000              1/1      Set#merge
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Chunk::ImageData>#combine_chunks
+   0.01%   0.01%      0.000      0.000      0.000      0.000                1      <Class::Zlib::Inflate>#inflate
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Gem::Version#segments
+   0.01%   0.01%      0.000      0.000      0.000      0.000                8      String#scan
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             4/19      Array#==
+                      0.000      0.000      0.000      0.000            14/19      Array#include?
+                      0.000      0.000      0.000      0.000             1/19      Ai4r::Clusterers::KMeans#stop_criteria_met
+   0.01%   0.00%      0.000      0.000      0.000      0.000               19     *Array#==
+                      0.000      0.000      0.000      0.000            21/57      Fixnum#==
+                      0.000      0.000      0.000      0.000             4/19      Array#==
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      SortedSet#merge
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Set#merge
+                      0.000      0.000      0.000      0.000              1/1      Set#do_with_enum
+                      0.000      0.000      0.000      0.000              1/1      Kernel#instance_of?
+                      0.000      0.000      0.000      0.000             1/20      Kernel#class
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#detect_dominant_colors
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Kolors::DominantColors#percentize
+                      0.000      0.000      0.000      0.000              1/2      Enumerable#collect
+                      0.000      0.000      0.000      0.000              1/1      Array#sort!
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            14/14      <Class::ChunkyPNG::Datastream>#from_io
+   0.01%   0.01%      0.000      0.000      0.000      0.000               14      IO#eof?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Class::ChunkyPNG::Datastream>#from_io
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      <Class::ChunkyPNG::Datastream>#verify_signature!
+                      0.000      0.000      0.000      0.000             1/41      IO#read
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            19/19      Hash#each
+   0.01%   0.01%      0.000      0.000      0.000      0.000               19      Symbol#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      Class#new
+   0.01%   0.00%      0.000      0.000      0.000      0.000                2      ChunkyPNG::Chunk::Text#initialize
+                      0.000      0.000      0.000      0.000             2/13      ChunkyPNG::Chunk::Base#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      <Class::Gem::Specification>#each
+   0.01%   0.01%      0.000      0.000      0.000      0.000                8      <Class::Gem::Specification>#_all
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Module::ChunkyPNG::Chunk>#read
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      <Class::ChunkyPNG::Chunk::End>#read
+                      0.000      0.000      0.000      0.000              1/2      String#bytesize
+                      0.000      0.000      0.000      0.000             1/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             2/10      Class#new
+                      0.000      0.000      0.000      0.000             8/10      NameError#initialize
+   0.01%   0.01%      0.000      0.000      0.000      0.000               10      Exception#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Set#merge
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Set#do_with_enum
+                      0.000      0.000      0.000      0.000              1/1      Enumerable#each_entry
+                      0.000      0.000      0.000      0.000             1/16      Kernel#respond_to?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            13/13      <Module::ChunkyPNG::Chunk>#read
+   0.01%   0.01%      0.000      0.000      0.000      0.000               13      Hash#fetch
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#close!
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Tempfile#unlink
+                      0.000      0.000      0.000      0.000              1/1      <Class::File>#unlink
+                      0.000      0.000      0.000      0.000              1/9      <Class::Delegator>#const_missing
+                      0.000      0.000      0.000      0.000             2/28      Array#[]=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      Ai4r::Clusterers::KMeans#build
+   0.01%   0.00%      0.000      0.000      0.000      0.000                2      Ai4r::Clusterers::KMeans#stop_criteria_met
+                      0.000      0.000      0.000      0.000             1/19      Array#==
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/20      Kernel#require
+                      0.000      0.000      0.000      0.000             1/20      Cocaine::CommandLine#environment
+                      0.000      0.000      0.000      0.000             1/20      Set#merge
+                      0.000      0.000      0.000      0.000             1/20      Cocaine::CommandLine#initialize
+                      0.000      0.000      0.000      0.000             8/20      Gem::Version#bump
+                      0.000      0.000      0.000      0.000             8/20      Gem::Version#initialize
+   0.01%   0.01%      0.000      0.000      0.000      0.000               20      Kernel#class
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Array#initialize
+                      0.000      0.000      0.000      0.000             4/43      Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Set#do_with_enum
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1      Enumerable#each_entry
+                      0.000      0.000      0.000      0.000            1/454      Array#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/3      Tempfile#_close
+                      0.000      0.000      0.000      0.000              1/3      <Class::IO>#open
+                      0.000      0.000      0.000      0.000              1/3      Cocaine::CommandLine::ProcessRunner#call
+   0.01%   0.01%      0.000      0.000      0.000      0.000                3      IO#close
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      <Class::Gem::Platform>#match
+   0.01%   0.01%      0.000      0.000      0.000      0.000                8      <Module::Gem>#platforms
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/9      Tempfile#close!
+                      0.000      0.000      0.000      0.000              1/9      Tempfile#initialize
+                      0.000      0.000      0.000      0.000              1/9      Tempfile#unlink
+                      0.000      0.000      0.000      0.000              6/9      Dir::Tmpname#create
+   0.01%   0.00%      0.000      0.000      0.000      0.000                9      <Class::Delegator>#const_missing
+                      0.000      0.000      0.000      0.000              9/9      Module#const_get
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3      Cocaine::CommandLine#run
+   0.01%   0.01%      0.000      0.000      0.000      0.000                3      Process::Status#exitstatus
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            36/57      Array#include?
+                      0.000      0.000      0.000      0.000            21/57      Array#==
+   0.01%   0.01%      0.000      0.000      0.000      0.000               57      Fixnum#==
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            12/12      Kolors::Rgb#xyz_to_lab
+   0.01%   0.00%      0.000      0.000      0.000      0.000               12      Kolors::Rgb#xyz_standardize
+                      0.000      0.000      0.000      0.000           12/790      Float#**
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/28      Ai4r::Data::DataSet#default_data_labels
+                      0.000      0.000      0.000      0.000             1/28      Tempfile#_close
+                      0.000      0.000      0.000      0.000             2/28      Tempfile#unlink
+                      0.000      0.000      0.000      0.000             2/28      Array#each_index
+                      0.000      0.000      0.000      0.000             2/28      Dir::Tmpname#create
+                      0.000      0.000      0.000      0.000            12/28      Integer#times
+                      0.000      0.000      0.000      0.000             8/28      Gem::Version#bump
+   0.01%   0.01%      0.000      0.000      0.000      0.000               28      Array#[]=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            20/20      Gem::Version#<=>
+   0.00%   0.00%      0.000      0.000      0.000      0.000               20      Fixnum#<=>
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#create_thumb_crop_and_convert_to_png!
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Kolors::DominantColors#open_source_image
+                      0.000      0.000      0.000      0.000              1/3      <Class::IO>#open
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#remote_source_image?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Palette#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Datastream#metadata
+                      0.000      0.000      0.000      0.000              1/5      Array#select
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Array#map
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8      String#to_i
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                5      SortedSet#add
+                      0.000      0.000      0.000      0.000              5/5      Set#add
+                      0.000      0.000      0.000      0.000             5/16      Kernel#respond_to?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#make_tmpname
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Time#strftime
+                      0.000      0.000      0.000      0.000              2/2      Fixnum#divmod
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#detect_dominant_colors
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Kolors::DominantColors#group_hashes_sum_values
+                      0.000      0.000      0.000      0.000            1/194      Enumerable#inject
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/25      #<Module:0x007f5137f91f70>#rand
+                      0.000      0.000      0.000      0.000             7/25      Kernel#respond_to?
+                      0.000      0.000      0.000      0.000             9/25      Kernel#rand
+                      0.000      0.000      0.000      0.000             8/25      Gem::Specification#method_missing
+   0.00%   0.00%      0.000      0.000      0.000      0.000               25      Kernel#respond_to_missing?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             3/18      Dir::Tmpname#create
+                      0.000      0.000      0.000      0.000            15/18      ChunkyPNG::Color#rgba
+   0.00%   0.00%      0.000      0.000      0.000      0.000               18      Fixnum#|
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8      Gem::Dependency#requirement
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             8/16      Gem::Version#initialize
+                      0.000      0.000      0.000      0.000             8/16      <Class::Gem::Version>#correct?
+   0.00%   0.00%      0.000      0.000      0.000      0.000               16      String#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             2/12      Array#each_index
+                      0.000      0.000      0.000      0.000             2/12      Dir::Tmpname#make_tmpname
+                      0.000      0.000      0.000      0.000             8/12      Array#join
+   0.00%   0.00%      0.000      0.000      0.000      0.000               12      Fixnum#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      File::Stat#writable?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            15/15      ChunkyPNG::Color#rgba
+   0.00%   0.00%      0.000      0.000      0.000      0.000               15      Fixnum#<<
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Array#reject!
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8      Gem::Specification#platform
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/9      Cocaine::CommandLine#command
+                      0.000      0.000      0.000      0.000              8/9      Gem::Version#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                9      String#strip
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/6      <Class::Gem::Specification>#find_in_unresolved_tree
+                      0.000      0.000      0.000      0.000              2/6      <Class::Gem::Specification>#find_in_unresolved
+                      0.000      0.000      0.000      0.000              2/6      Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                6      <Class::Gem::Specification>#unresolved_deps
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Chunk::End#initialize
+                      0.000      0.000      0.000      0.000             1/13      ChunkyPNG::Chunk::Base#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/4      Cocaine::CommandLine#environment
+                      0.000      0.000      0.000      0.000              3/4      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Hash#merge
+                      0.000      0.000      0.000      0.000             4/23      Kernel#initialize_dup
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Ai4r::Data::DataSet#set_data_items
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Ai4r::Data::DataSet#default_data_labels
+                      0.000      0.000      0.000      0.000          1/36006      Array#each_index
+                      0.000      0.000      0.000      0.000              1/1      Array#[]
+                      0.000      0.000      0.000      0.000             1/28      Array#[]=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3      Cocaine::CommandLine#shell_quote
+   0.00%   0.00%      0.000      0.000      0.000      0.000                3      Cocaine::CommandLine#unix?
+                      0.000      0.000      0.000      0.000              3/3      Kernel#!~
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/16      Set#do_with_enum
+                      0.000      0.000      0.000      0.000             1/16      Array#flatten
+                      0.000      0.000      0.000      0.000             5/16      SortedSet#add
+                      0.000      0.000      0.000      0.000             9/16      Array#select
+   0.00%   0.00%      0.000      0.000      0.000      0.000               16      Kernel#respond_to?
+                      0.000      0.000      0.000      0.000             7/25      Kernel#respond_to_missing?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              9/9      <Class::Delegator>#const_missing
+   0.00%   0.00%      0.000      0.000      0.000      0.000                9      Module#const_get
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              9/9      Ai4r::Clusterers::KMeans#calc_initial_centroids
+   0.00%   0.00%      0.000      0.000      0.000      0.000                9      Kernel#rand
+                      0.000      0.000      0.000      0.000             9/25      Kernel#respond_to_missing?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            12/12      <Module::Ai4r::Data::Statistics>#mean
+   0.00%   0.00%      0.000      0.000      0.000      0.000               12      Ai4r::Data::DataSet#get_index
+                      0.000      0.000      0.000      0.000        12/180029      Kernel#is_a?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#unlink
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Class::File>#unlink
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             6/10      Array#sort!
+                      0.000      0.000      0.000      0.000             4/10      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000               10      Hash#keys
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             2/12      Kernel#raise
+                      0.000      0.000      0.000      0.000             2/12      Kernel#gem_original_require
+                      0.000      0.000      0.000      0.000             8/12      BasicObject#method_missing
+   0.00%   0.00%      0.000      0.000      0.000      0.000               12      Exception#exception
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#percentize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Array#sort!
+                      0.000      0.000      0.000      0.000             6/10      Hash#keys
+                      0.000      0.000      0.000      0.000          6/14445      Array#first
+                      0.000      0.000      0.000      0.000            3/885      Float#<=>
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8      Gem::Specification#sort_obj
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#cleanup_temporary_files!
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#open_source_image
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      Kolors::DominantColors#remote_source_image?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            10/10      Kernel#initialize_dup
+   0.00%   0.00%      0.000      0.000      0.000      0.000               10      String#initialize_copy
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Array#eql?
+                      0.000      0.000      0.000      0.000            12/12      Float#eql?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            16/16      Array#select
+   0.00%   0.00%      0.000      0.000      0.000      0.000               16      Gem::Dependency#type
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Datastream#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Gem::Version#bump
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8      Array#pop
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/9      <Class::Tempfile>#open
+                      0.000      0.000      0.000      0.000              8/9      <Class::Gem::Specification>#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                9      Kernel#block_given?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Kernel#initialize_dup
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8      Array#initialize_copy
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Ai4r::Data::DataSet#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Ai4r::Data::DataSet#set_data_labels
+                      0.000      0.000      0.000      0.000              4/4      Ai4r::Data::DataSet#check_data_labels
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3      Cocaine::CommandLine#shell_quote
+   0.00%   0.00%      0.000      0.000      0.000      0.000                3      String#split
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine::ProcessRunner#call
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Class::IO>#pipe
+                      0.000      0.000      0.000      0.000              2/2      IO#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#close!
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Tempfile#_close
+                      0.000      0.000      0.000      0.000              1/3      IO#close
+                      0.000      0.000      0.000      0.000             1/28      Array#[]=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/4      <Class::Gem::Specification>#find_in_unresolved_tree
+                      0.000      0.000      0.000      0.000              2/4      <Class::Gem::Specification>#find_in_unresolved
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Hash#values
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            12/12      Kolors::Rgb#xyz_to_lab
+   0.00%   0.00%      0.000      0.000      0.000      0.000               12      Float#round
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#execute
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Cocaine::CommandLine#environment
+                      0.000      0.000      0.000      0.000              1/4      Hash#merge
+                      0.000      0.000      0.000      0.000              1/1      <Class::Cocaine::CommandLine>#environment
+                      0.000      0.000      0.000      0.000             1/20      Kernel#class
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5      SortedSet#add
+   0.00%   0.00%      0.000      0.000      0.000      0.000                5      Set#add
+                      0.000      0.000      0.000      0.000              5/7      Hash#[]=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      <Class::Cocaine::CommandLine>#best_runner
+                      0.000      0.000      0.000      0.000              1/2      Kolors::DominantColors#collect_pixels
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      Tempfile#path
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                5      Array#fetch
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Image#initialize
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Canvas#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3      Cocaine::CommandLine#unix?
+   0.00%   0.00%      0.000      0.000      0.000      0.000                3      Kernel#!~
+                      0.000      0.000      0.000      0.000             3/11      String#=~
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Gem::Specification#runtime_dependencies
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Gem::Specification#dependencies
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Array#<=>
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      String#<=>
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Array#flatten
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Exception#message
+                      0.000      0.000      0.000      0.000              4/4      Exception#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            12/12      Module#module_eval
+   0.00%   0.00%      0.000      0.000      0.000      0.000               12      Module#method_added
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/3      <Class::Cocaine::CommandLine>#best_runner
+                      0.000      0.000      0.000      0.000              1/3      ChunkyPNG::Canvas::PNGDecoding#from_datastream
+                      0.000      0.000      0.000      0.000              1/3      Kolors::DominantColors#create_thumb_crop_and_convert_to_png!
+   0.00%   0.00%      0.000      0.000      0.000      0.000                3      <Module::Kolors>#options
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Ai4r::Clusterers::KMeans#initialize
+                      0.000      0.000      0.000      0.000              1/1      Kernel#lambda
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Kolors::Rgb#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Delegator#initialize
+                      0.000      0.000      0.000      0.000              1/1      #<Class:0x007f5137f90490>#__setobj__
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             4/16      Hash#each
+                      0.000      0.000      0.000      0.000            12/16      Kolors::Rgb#rgb_standardize
+   0.00%   0.00%      0.000      0.000      0.000      0.000               16      Float#*
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Image#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Canvas#initialize
+                      0.000      0.000      0.000      0.000              1/2      Kernel#kind_of?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#make_tmpname
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      #<Module:0x007f5137f91f70>#rand
+                      0.000      0.000      0.000      0.000             1/25      Kernel#respond_to_missing?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5      Kernel#initialize_dup
+   0.00%   0.00%      0.000      0.000      0.000      0.000                5      Hash#initialize_copy
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            16/16      Array#select
+   0.00%   0.00%      0.000      0.000      0.000      0.000               16      Symbol#==
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      <Class::ChunkyPNG::Chunk::End>#read
+                      0.000      0.000      0.000      0.000              1/2      <Class::ChunkyPNG::Chunk::ImageData>#read
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      String#bytesize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#make_tmpname
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Class::Time>#now
+                      0.000      0.000      0.000      0.000              1/1      Time#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            12/12      <Module::Ai4r::Data::Statistics>#mean
+   0.00%   0.00%      0.000      0.000      0.000      0.000               12      Float#/
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Delegator#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      #<Class:0x007f5137f90490>#__setobj__
+                      0.000      0.000      0.000      0.000              1/1      BasicObject#equal?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/7      Array#select
+                      0.000      0.000      0.000      0.000              5/7      Set#add
+   0.00%   0.00%      0.000      0.000      0.000      0.000                7      Hash#[]=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      ChunkyPNG::Canvas::PNGDecoding#decode_png_pixelstream
+                      0.000      0.000      0.000      0.000              1/2      ChunkyPNG::Canvas::PNGDecoding#from_datastream
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      Fixnum#===
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            12/12      Array#eql?
+   0.00%   0.00%      0.000      0.000      0.000      0.000               12      Float#eql?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      <Class::IO>#pipe
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      IO#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      ChunkyPNG::Canvas::PNGDecoding#decode_png_pixelstream
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      ChunkyPNG::Palette#can_decode?
+                      0.000      0.000      0.000      0.000           1/7214      Kernel#nil?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Ai4r::Data::DataSet#set_data_labels
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Ai4r::Data::DataSet#check_data_labels
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      Array#flatten
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      String#end_with?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Class::File>#stat
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Tempfile::Remover#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Module#module_eval
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Module#remove_method
+                      0.000      0.000      0.000      0.000              1/1      Module#method_removed
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4      Exception#message
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4      Exception#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      Array#flatten
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      String#start_with?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8      Hash#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8      Fixnum#to_f
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Class::Time>#now
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Time#initialize
+                      0.000      0.000      0.000      0.000            1/193      Fixnum#+
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/5      Cocaine::CommandLine#initialize
+                      0.000      0.000      0.000      0.000              4/5      Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                5      Hash#delete
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#environment
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Class::Cocaine::CommandLine>#environment
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#create
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Class::File>#join
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#open_downsampled_image
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      IO#binmode
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3      <Class::Dir>#tmpdir
+   0.00%   0.00%      0.000      0.000      0.000      0.000                3      <Object::Object>#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#close!
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Module::ObjectSpace>#undefine_finalizer
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Module::ObjectSpace>#define_finalizer
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2      ChunkyPNG::Canvas#initialize
+                      0.000      0.000      0.000      0.000              1/2      OilyPNG::PNGDecoding#decode_png_image_pass
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      Kernel#kind_of?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Ai4r::Clusterers::KMeans#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Kernel#lambda
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Kolors::DominantColors#open_downsampled_image
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      #<Class:0x007f5137f90490>#__getobj__
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#create
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      <Class::Hash>#try_convert
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Hash#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Ai4r::Data::DataSet#default_data_labels
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Array#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2      Time#strftime
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2      Fixnum#divmod
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#run
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Cocaine::CommandLine#colored
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Kolors::DominantColors#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Cocaine::CommandLine#run
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Cocaine::CommandLine#log
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      File::Stat#world_writable?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      <Class::Cocaine::CommandLine>#best_runner
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      File#path
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Module#remove_method
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Module#method_removed
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      File::Stat#directory?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Set#merge
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Kernel#instance_of?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      BasicObject#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#create
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Fixnum#~
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Dir::Tmpname#create
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      Fixnum#&
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      #<Class:0x007f5137f90490>#__setobj__
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      BasicObject#equal?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Array#each
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      File::Stat#sticky?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1      Tempfile#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1      #<Module:0x007f5137f91f70>#block_given?
+
+* indicates recursively called methods
