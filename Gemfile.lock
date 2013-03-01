@@ -57,6 +57,7 @@ DEPENDENCIES
   cane
   cocaine
   oily_png
+  parallel
   pry
   pry-doc
   reek

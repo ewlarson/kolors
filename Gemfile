@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'ai4r'
 gem 'cocaine'
 gem 'oily_png'
+gem 'parallel'
 
 group :development do
   gem 'pry'
