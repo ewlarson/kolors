@@ -8,6 +8,6 @@ end
 
 printer = RubyProf::GraphPrinter.new(result)
 
-File.open('kolors_profile.txt', 'w') do |file|
+File.open('spec/profiles/kolors_profile.txt', 'w') do |file|
   printer.print(file)
 end
