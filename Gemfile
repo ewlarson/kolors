@@ -1,5 +1,17 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in kolors.gemspec
-gemspec
-gem 'rspec'
+gem 'ai4r'
+gem 'cocaine'
+gem 'oily_png'
+
+group :development do
+  gem 'pry'
+  gem 'pry-doc'
+  gem 'ruby-prof'
+end
+
+group :test do
+  gem 'cane'
+  gem 'reek'
+  gem 'rspec'
+end
