@@ -2,7 +2,7 @@
 [![Gem Version](https://badge.fury.io/rb/kolors.png)](http://badge.fury.io/rb/kolors)
 [![Code Climate](https://codeclimate.com/github/ewlarson/kolors.png)](https://codeclimate.com/github/ewlarson/kolors)
 
-Uses KMeans clustering and the L*A*B* colorspace to extract "approximate human vision" dominant colors from an image.  Optionally, map those dominant colors into preferred "color bins" for a search index facet-by-color solution.
+Uses the L*A*B* colorspace to extract "approximate human vision" dominant colors from an image.  Optionally, map those dominant colors into preferred "color bins" for a search index facet-by-color solution.
 
 LARGELY based off the neat work of the [Miro gem](https://github.com/jonbuda/miro).  If you want faster, RGB-based dominant color extraction, use Miro.
 
@@ -21,21 +21,6 @@ require 'kolors'
 
 # Use path to a local image or URL for remote image
 kolors = Kolors::DominantColors.new('../colors/images/QFZMF57HPHVGJ8Z_thumb.png')
-
-# Two methods for color retrieval
-# 1) KMeans-based clustered color analysis
-# 2) Non-clustered, color pixel count percentages (more colors here)
-
-# KMeans - Return the dominant colors in LAB
-kolors.to_lab
- => [[52.406, -18.186, 27.618], [88.523, -10.393, 16.203], [64.944, -16.181, 24.419], [28.486, -16.665, 22.73]]
-
-# KMeans - Return the mapped color bins and color percentage for facet-by-color
-kolors.to_facets
- => [{"Moss"=>50.05952380952381}, {"Mercury"=>9.880952380952381}, {"Aluminum"=>19.186507936507937}, {"Iron"=>20.873015873015873}]
- 
-kolors.to_lab # LAB values
-kolors.to_rgb # RGB values
  
 # Non-clustered - Color pixel count percentages
 kolors.color_bins_result
