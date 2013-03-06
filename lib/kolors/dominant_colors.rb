@@ -5,26 +5,6 @@ module Kolors
     def initialize(src_image_path)
       @src_image_path = src_image_path
     end
-
-    def to_facets
-      # Map each centroid to key_colors
-      facets = to_lab.each_with_index.collect do |color,index| 
-        { key_colors[key_colors.keys.sort_by {|c| dist(color, c) }.first] => kmeans_result.clusters[index].data_items.size}
-      end
-      percentize(group_hashes_sum_values(facets))
-    end
-    
-    def to_rgb
-      kmeans_result.centroids
-    end  
-    
-    def to_lab
-      kmeans_result.centroids.collect{|r,g,b| Kolors::Rgb.new(r,g,b).to_lab}
-    end
-    
-    def kmeans_result
-      @kmeans_result ||= extract_colors_from_image
-    end
     
     def color_bins_result
       @color_bin_counts_result ||= extract_color_bin_percentages_from_image
@@ -38,13 +18,6 @@ module Kolors
     
     def group_hashes_sum_values(array)
       array.inject{|color, count| color.merge( count ){|k, old_v, new_v| old_v + new_v}}
-    end
-
-    def extract_colors_from_image
-      create_thumb_crop_and_convert_to_png!
-      colors = detect_dominant_colors
-      cleanup_temporary_files!
-      return colors
     end
     
     def extract_color_bin_percentages_from_image
@@ -91,14 +64,6 @@ module Kolors
     
     def collect_pixels
       @colors ||= ChunkyPNG::Image.from_file(File.expand_path(@downsampled_image.path)).pixels.collect {|c| ChunkyPNG::Color.to_truecolor_bytes c }
-    end
-
-    def detect_dominant_colors
-      # Detect dominant colors
-      # Kmeans cluster
-      data = Ai4r::Data::DataSet.new(:data_items => collect_pixels)
-      kmeans = Ai4r::Clusterers::KMeans.new
-      result = kmeans.build(data, Kolors.options[:color_count])
     end
     
     def detect_color_bin_percentages

@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    kolors (0.0.2)
-      ai4r
+    kolors (0.0.3)
       cocaine
       oily_png
 
@@ -12,7 +11,6 @@ GEM
     activesupport (3.2.12)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    ai4r (1.12)
     chunky_png (1.2.7)
     climate_control (0.0.3)
       activesupport (>= 3.0)

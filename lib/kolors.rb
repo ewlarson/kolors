@@ -1,6 +1,5 @@
 require 'kolors/version'
 require 'oily_png'        # Fast ChunkyPNG
-require 'ai4r'            # KMeans Clustering
 require 'cocaine'
 require 'open-uri'
 require "tempfile"
