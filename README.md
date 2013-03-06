@@ -34,7 +34,8 @@ kolors.color_bins_result
 
 ## Thanks
 
-Special thanks to my buddy [Nate Vack](https://github.com/njvack) for help getting this off of the ground.
+* [Nate Vack](https://github.com/njvack) for help getting this off of the ground.
+* [Culley Smith](https://github.com/CulleyS) for assistance in refactoring towards parallelization.
 
 ## Contributing
 
