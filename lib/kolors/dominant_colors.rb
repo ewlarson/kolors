@@ -69,7 +69,7 @@ module Kolors
     def detect_color_bin_percentages
       color_bins = Array.new
       collect_pixels.collect{|r,g,b| Kolors::Rgb.new(r,g,b).to_lab}.each do |color|
-        color_bins << {key_colors[key_colors.keys.sort_by {|c| dist(color, c) }.first] => 1}
+        color_bins << {KEY_COLORS[KEY_COLORS.keys.sort_by {|c| dist(color, c) }.first] => 1}
       end
       
       percentize(group_hashes_sum_values(color_bins))
